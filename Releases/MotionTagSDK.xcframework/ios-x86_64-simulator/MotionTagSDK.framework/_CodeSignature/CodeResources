@@ -12,17 +12,17 @@
 		<data>
 		6/jlk28iIaxUhMmd3qBWm1gfX7c=
 		</data>
-		<key>Headers/MotionTagLib.h</key>
-		<data>
-		CImHZ1EpiRPJX6y7p6YOxwWvKhc=
-		</data>
 		<key>Headers/MotionTagSDK-Swift.h</key>
 		<data>
-		rmA2M9CE/dALnYEmM+hXdeVAKUg=
+		W5s4RWdnl5mXG/u24hby0pdcnrE=
+		</data>
+		<key>Headers/MotionTagSDK.h</key>
+		<data>
+		lVkzMLsnF93F1OQDXZ/6O405ubw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		z9Wky5HBFpXKrlv4nZLJSxaKkTY=
+		QQYNUmfaeNO7EMpZjOc62DvrBFE=
 		</data>
 		<key>LICENSE.txt</key>
 		<data>
@@ -30,31 +30,31 @@
 		</data>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		f3ZGJUSrAZVqH3ei5AoqQkZg1Lk=
+		2MpBi3dJSyHl/euz0s7/DSVYVtU=
 		</data>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fJKcw7iKsmO/ADWV+sP7yeX5sOI=
+		M9XUU5rOp+x0wBGATLTjhA3nmkM=
 		</data>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KVosS+Dfp6h6HdrBsCwV2c8G3AA=
+		9/D9hF8eoOmddLSdHc1COag12ts=
 		</data>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		f3ZGJUSrAZVqH3ei5AoqQkZg1Lk=
+		2MpBi3dJSyHl/euz0s7/DSVYVtU=
 		</data>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		fJKcw7iKsmO/ADWV+sP7yeX5sOI=
+		M9XUU5rOp+x0wBGATLTjhA3nmkM=
 		</data>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		KVosS+Dfp6h6HdrBsCwV2c8G3AA=
+		9/D9hF8eoOmddLSdHc1COag12ts=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		UBzg1SCEVRWJ8ouCXz+o6Jgh+Zw=
+		hE51V11to01REdx0jZiV0l7R+uA=
 		</data>
 		<key>com.motiontag.sdk.CoreDataModel.momd/CoreDataModel.mom</key>
 		<data>
@@ -81,18 +81,18 @@
 			o9zIFW5++Av4qVPKecJiI+6Rk7MSeCPRm/N6t7Rhdqg=
 			</data>
 		</dict>
-		<key>Headers/MotionTagLib.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Zoi36FLY/TK6Y785q7yd2LcRQ2qAtPwiYuDH/NeftIQ=
-			</data>
-		</dict>
 		<key>Headers/MotionTagSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yWu4EhveWPnZrklQbRuj6vYVbKtNyMj7yd0/7YZYoNA=
+			vcHk2scMRS9h+zd0pIsnDBe+ZYgk3m5wRwDy0yRb/bg=
+			</data>
+		</dict>
+		<key>Headers/MotionTagSDK.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Gqmn0vnSVJRDsPJV1vAJhxVRrL2eyO3yAZQBHGTip70=
 			</data>
 		</dict>
 		<key>LICENSE.txt</key>
@@ -106,49 +106,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N59NO338FPBiLiNOqk3PP397kpaOgMYmvim7AZiChKc=
+			EjONgbgwROTBjNMs5LhGDfDMmvmypltVJT3Cg+qe9jA=
 			</data>
 		</dict>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AEJ/zkTsj84rOQ9XUXgDHgu4/hKeuQSodBp1Km24K3Y=
+			SLGW6lcAf5n6KcMuTnuvVFQ9bNcEy/wA4M9QV7902pY=
 			</data>
 		</dict>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ACnB7coZ7Dfi4ybnKPb4deo9AjHs/Di/oW0Tsw8Vx7g=
+			UNaq39ODPIyg5zfdmTNC3P4D31kH2Vm6tzInZWLXZ5Q=
 			</data>
 		</dict>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N59NO338FPBiLiNOqk3PP397kpaOgMYmvim7AZiChKc=
+			EjONgbgwROTBjNMs5LhGDfDMmvmypltVJT3Cg+qe9jA=
 			</data>
 		</dict>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AEJ/zkTsj84rOQ9XUXgDHgu4/hKeuQSodBp1Km24K3Y=
+			SLGW6lcAf5n6KcMuTnuvVFQ9bNcEy/wA4M9QV7902pY=
 			</data>
 		</dict>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ACnB7coZ7Dfi4ybnKPb4deo9AjHs/Di/oW0Tsw8Vx7g=
+			UNaq39ODPIyg5zfdmTNC3P4D31kH2Vm6tzInZWLXZ5Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+vEcSK39LU9zr6cs8O87k/2xPF45UnXwRx+cKpBcaZU=
+			v9Wl69r8SARzxECJcWe9z2DrmzkfN+Jk6PTafQEFYgw=
 			</data>
 		</dict>
 		<key>com.motiontag.sdk.CoreDataModel.momd/CoreDataModel.mom</key>
