@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/MotionTagSDK-Swift.h</key>
 		<data>
-		3vaCK2Hy7t7ciz8m8mQv0VNg3s8=
+		nZR8ZEN0jdDvxZHudzNgVKJ2sKk=
 		</data>
 		<key>Headers/MotionTagSDK.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		anRDdIEwjdFRmNdKxLJk4aUvvEo=
+		FHovMp+zvk0HZ0Ve54JKxbweUW8=
 		</data>
 		<key>LICENSE.txt</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/MotionTagSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mHItHxsfbeCSQYn75PgH/xVUtmY=
+		t5hun/pLNEPv00L9y0O+rw9bFGc=
 		</data>
 		<key>Modules/MotionTagSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/MotionTagSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		mHItHxsfbeCSQYn75PgH/xVUtmY=
+		t5hun/pLNEPv00L9y0O+rw9bFGc=
 		</data>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vLEAHNZ567oSXy/BRTr57hqN54Y=
+		YFlcGpu6kNtOs2Vsvs33TRy1ROc=
 		</data>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		vLEAHNZ567oSXy/BRTr57hqN54Y=
+		YFlcGpu6kNtOs2Vsvs33TRy1ROc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jPJNtoEPR30acFybusjKj1cc3K5KQeJ6OVpa/EpfBCs=
+			pwfpjS5UfHsKtK1YdRPs49Z5Btq8SmvM1mv6d2Qw8Lo=
 			</data>
 		</dict>
 		<key>Headers/MotionTagSDK.h</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PBPhihADln9dSJXFUC8K9nbEJJffyaMgQt10I87Momc=
+			pJWSQLFkmZ14FbUDGQLbLligtFJA1Eph9rISD62E3/k=
 			</data>
 		</dict>
 		<key>Modules/MotionTagSDK.swiftmodule/arm64.swiftdoc</key>
@@ -165,7 +165,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PBPhihADln9dSJXFUC8K9nbEJJffyaMgQt10I87Momc=
+			pJWSQLFkmZ14FbUDGQLbLligtFJA1Eph9rISD62E3/k=
 			</data>
 		</dict>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -186,7 +186,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tJNsINOT/d6BLqnFOePGN7HoneJaVMpwBQcQTE3fSDE=
+			lW5coFunz6GF3sulFazeCMia3L+0SFP1nXC6V2/X1+s=
 			</data>
 		</dict>
 		<key>Modules/MotionTagSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -207,7 +207,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tJNsINOT/d6BLqnFOePGN7HoneJaVMpwBQcQTE3fSDE=
+			lW5coFunz6GF3sulFazeCMia3L+0SFP1nXC6V2/X1+s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
