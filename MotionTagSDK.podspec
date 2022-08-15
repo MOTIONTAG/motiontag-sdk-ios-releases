@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license                 = { :type => 'MOTIONTAG SDK Test License', :file => 'LICENSE.txt' }
   s.authors                 = { 'MOTIONTAG GmbH' => 'info@motion-tag.com'}
   s.source                  = { :git => 'https://github.com/MOTIONTAG/motiontag-sdk-ios-releases.git' }
-  s.platform                = :ios, '11.0'
+  s.platform                = :ios, '12.3'
   s.swift_version           = '5.0'
   s.libraries               = 'z'
   s.ios.vendored_frameworks = 'Releases/MotionTagSDK.xcframework'
