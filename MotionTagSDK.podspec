@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name                    = 'MotionTagSDK'
   s.version                 = '4.3.1'
   s.summary                 = 'MOTIONTAG Mobility & Analytics SDK for iOS'
-  s.homepage                = 'https://motion-tag.com'
+  s.homepage                = 'https://github.com/MOTIONTAG/motiontag-sdk-ios-releases'
   s.documentation_url       = 'https://api.motion-tag.de/developer/ios'
   s.license                 = { :type => 'MOTIONTAG SDK Test License', :file => 'LICENSE.txt' }
   s.authors                 = { 'MOTIONTAG GmbH' => 'info@motion-tag.com'}
