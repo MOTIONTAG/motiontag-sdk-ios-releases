@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                    = 'MotionTagSDK'
-  s.version                 = '4.3.1'
+  s.version                 = '5.0.0'
   s.summary                 = 'MOTIONTAG Mobility & Analytics SDK for iOS'
   s.homepage                = 'https://github.com/MOTIONTAG/motiontag-sdk-ios-releases'
   s.documentation_url       = 'https://api.motion-tag.de/developer/ios'
