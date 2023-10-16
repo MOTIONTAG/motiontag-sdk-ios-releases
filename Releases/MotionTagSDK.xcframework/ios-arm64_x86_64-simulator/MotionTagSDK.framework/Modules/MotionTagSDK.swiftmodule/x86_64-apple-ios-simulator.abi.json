@@ -43,6 +43,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
         "declKind": "Import",
@@ -124,6 +134,16 @@
         "printedName": "CoreMotion",
         "declKind": "Import",
         "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -317,6 +337,36 @@
       },
       {
         "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -367,6 +417,66 @@
       },
       {
         "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -497,28 +607,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "MotionTagSDK",
         "declAttributes": [
@@ -529,6 +619,16 @@
         "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "MotionTagSDK",
         "declAttributes": [
@@ -709,6 +809,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
@@ -787,6 +897,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -1309,6 +1429,41 @@
       "value": "\"MotionTagSDK.TrackerDependencies\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/BeaconScan.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 12,
+      "value": "\"BeaconScan\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/BeaconScan.swift",
+      "kind": "StringLiteral",
+      "offset": 645,
+      "length": 15,
+      "value": "\"tracked_at_ms\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/BeaconScan.swift",
+      "kind": "StringLiteral",
+      "offset": 684,
+      "length": 9,
+      "value": "\"beacons\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/BeaconScan.swift",
+      "kind": "StringLiteral",
+      "offset": 645,
+      "length": 15,
+      "value": "\"tracked_at_ms\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/BeaconScan.swift",
+      "kind": "StringLiteral",
+      "offset": 684,
+      "length": 9,
+      "value": "\"beacons\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/SDKSettings.swift",
       "kind": "StringLiteral",
       "offset": 219,
@@ -1402,9 +1557,114 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Location\/General\/TrackerRepository.swift",
       "kind": "StringLiteral",
-      "offset": 611,
+      "offset": 1696,
+      "length": 57,
+      "value": "\"eventRepository is not castable to EventInsertableSwift\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Location\/General\/TrackerRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 680,
       "length": 17,
       "value": "\"MotionTagSDK.TrackerRepository\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 898,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 956,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 967,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1039,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1044,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1049,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 1061,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1078,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
+      "kind": "Array",
+      "offset": 1446,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 1656,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1689,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1782,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 18,
+      "value": "\"MotionTagSDK.AccessTokenDecoder\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/UserDefaults\/UserDefaultsManager.swift",
@@ -1416,21 +1676,21 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/UserDefaults\/UserDefaultsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2135,
+      "offset": 2127,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/UserDefaults\/UserDefaultsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2473,
+      "offset": 2465,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/UserDefaults\/UserDefaultsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2599,
+      "offset": 2591,
       "length": 5,
       "value": "false"
     },
@@ -1598,7 +1858,14 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/Debug.swift",
       "kind": "StringLiteral",
-      "offset": 682,
+      "offset": 692,
+      "length": 16,
+      "value": "\"Beacon Ranging\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/Debug.swift",
+      "kind": "StringLiteral",
+      "offset": 728,
       "length": 5,
       "value": "\"Log\""
     },
@@ -1633,65 +1900,86 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/Debug.swift",
       "kind": "StringLiteral",
-      "offset": 682,
+      "offset": 692,
+      "length": 16,
+      "value": "\"Beacon Ranging\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/Debug.swift",
+      "kind": "StringLiteral",
+      "offset": 728,
       "length": 5,
       "value": "\"Log\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/Debug.swift",
       "kind": "IntegerLiteral",
-      "offset": 791,
+      "offset": 837,
       "length": 16,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/Debug.swift",
       "kind": "IntegerLiteral",
-      "offset": 817,
+      "offset": 863,
       "length": 21,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/Debug.swift",
       "kind": "IntegerLiteral",
-      "offset": 848,
+      "offset": 894,
       "length": 14,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/Debug.swift",
       "kind": "IntegerLiteral",
-      "offset": 872,
-      "length": 3,
+      "offset": 918,
+      "length": 13,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/Debug.swift",
       "kind": "IntegerLiteral",
-      "offset": 791,
+      "offset": 941,
+      "length": 3,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/Debug.swift",
+      "kind": "IntegerLiteral",
+      "offset": 837,
       "length": 16,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/Debug.swift",
       "kind": "IntegerLiteral",
-      "offset": 817,
+      "offset": 863,
       "length": 21,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/Debug.swift",
       "kind": "IntegerLiteral",
-      "offset": 848,
+      "offset": 894,
       "length": 14,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/Debug.swift",
       "kind": "IntegerLiteral",
-      "offset": 872,
-      "length": 3,
+      "offset": 918,
+      "length": 13,
       "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/Debug.swift",
+      "kind": "IntegerLiteral",
+      "offset": 941,
+      "length": 3,
+      "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Location\/Managers\/Reachability\/ReachabilityTracker.swift",
@@ -1918,121 +2206,275 @@
       "value": "5"
     },
     {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/IBeacon.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 9,
+      "value": "\"IBeacon\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/IBeacon.swift",
+      "kind": "StringLiteral",
+      "offset": 610,
+      "length": 10,
+      "value": "\"protocol\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/IBeacon.swift",
+      "kind": "StringLiteral",
+      "offset": 648,
+      "length": 15,
+      "value": "\"tracked_at_ms\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/IBeacon.swift",
+      "kind": "StringLiteral",
+      "offset": 684,
+      "length": 6,
+      "value": "\"uuid\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/IBeacon.swift",
+      "kind": "StringLiteral",
+      "offset": 712,
+      "length": 7,
+      "value": "\"major\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/IBeacon.swift",
+      "kind": "StringLiteral",
+      "offset": 741,
+      "length": 7,
+      "value": "\"minor\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/IBeacon.swift",
+      "kind": "StringLiteral",
+      "offset": 769,
+      "length": 6,
+      "value": "\"rssi\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/IBeacon.swift",
+      "kind": "StringLiteral",
+      "offset": 610,
+      "length": 10,
+      "value": "\"protocol\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/IBeacon.swift",
+      "kind": "StringLiteral",
+      "offset": 648,
+      "length": 15,
+      "value": "\"tracked_at_ms\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/IBeacon.swift",
+      "kind": "StringLiteral",
+      "offset": 684,
+      "length": 6,
+      "value": "\"uuid\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/IBeacon.swift",
+      "kind": "StringLiteral",
+      "offset": 712,
+      "length": 7,
+      "value": "\"major\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/IBeacon.swift",
+      "kind": "StringLiteral",
+      "offset": 741,
+      "length": 7,
+      "value": "\"minor\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/IBeacon.swift",
+      "kind": "StringLiteral",
+      "offset": 769,
+      "length": 6,
+      "value": "\"rssi\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 346,
+      "offset": 348,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 390,
+      "offset": 392,
       "length": 3,
       "value": "2.6"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 396,
+      "offset": 398,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 441,
+      "offset": 443,
       "length": 9,
       "value": "\"regular\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 526,
+      "offset": 528,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 530,
+      "offset": 532,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 575,
+      "offset": 577,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 580,
+      "offset": 582,
       "length": 6,
       "value": "1000.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 659,
+      "offset": 661,
       "length": 5,
       "value": "182.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 713,
+      "offset": 715,
       "length": 4,
       "value": "1.32"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 763,
+      "offset": 765,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 856,
+      "offset": 858,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 863,
+      "offset": 865,
       "length": 5,
       "value": "600.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 904,
+      "offset": 906,
       "length": 5,
       "value": "150.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1003,
+      "offset": 1005,
       "length": 40,
       "value": "\"kMOTNetworkReachableChangeNotification\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 1135,
+      "length": 4,
+      "value": "28.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 1197,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 1259,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 1331,
+      "length": 4,
+      "value": "63.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1170,
+      "offset": 1420,
+      "length": 38,
+      "value": "\"AEA3E301-4BBC-4ECF-AD17-2573922A5F4F\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1520,
+      "length": 38,
+      "value": "\"461959C9-9F74-47C5-8C55-2471B510948A\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 1879,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 1885,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 1941,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2072,
       "length": 23,
       "value": "\"http:\/\/localhost:8080\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1196,
+      "offset": 2098,
       "length": 27,
       "value": "\"https:\/\/api.motion-tag.de\""
     },
@@ -2042,6 +2484,13 @@
       "offset": 608,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Location\/Managers\/Pause\/PauseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 12,
+      "value": "\"MotionTagSDK.PauseManager\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/UserDefaults\/UserDefaultsKeys.swift",
@@ -2390,22 +2839,36 @@
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
       "kind": "StringLiteral",
       "offset": 633,
-      "length": 30,
-      "value": "\"entered surrounding geofence\""
+      "length": 18,
+      "value": "\"entered geofence\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
       "kind": "StringLiteral",
-      "offset": 694,
+      "offset": 682,
       "length": 17,
       "value": "\"exited geofence\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
       "kind": "StringLiteral",
-      "offset": 747,
+      "offset": 735,
       "length": 22,
       "value": "\"significant location\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
+      "kind": "StringLiteral",
+      "offset": 787,
+      "length": 23,
+      "value": "\"entered beacon region\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
+      "kind": "StringLiteral",
+      "offset": 839,
+      "length": 22,
+      "value": "\"exited beacon region\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
@@ -2418,148 +2881,204 @@
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
       "kind": "StringLiteral",
       "offset": 633,
-      "length": 30,
-      "value": "\"entered surrounding geofence\""
+      "length": 18,
+      "value": "\"entered geofence\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
       "kind": "StringLiteral",
-      "offset": 694,
+      "offset": 682,
       "length": 17,
       "value": "\"exited geofence\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
       "kind": "StringLiteral",
-      "offset": 747,
+      "offset": 735,
       "length": 22,
       "value": "\"significant location\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
-      "kind": "IntegerLiteral",
-      "offset": 937,
-      "length": 15,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
-      "kind": "IntegerLiteral",
-      "offset": 962,
-      "length": 14,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
-      "kind": "IntegerLiteral",
-      "offset": 986,
-      "length": 19,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1015,
-      "length": 7,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
-      "kind": "IntegerLiteral",
-      "offset": 937,
-      "length": 15,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
-      "kind": "IntegerLiteral",
-      "offset": 962,
-      "length": 14,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
-      "kind": "IntegerLiteral",
-      "offset": 986,
-      "length": 19,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1015,
-      "length": 7,
-      "value": "4"
+      "kind": "StringLiteral",
+      "offset": 787,
+      "length": 23,
+      "value": "\"entered beacon region\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
       "kind": "StringLiteral",
-      "offset": 1510,
+      "offset": 839,
+      "length": 22,
+      "value": "\"exited beacon region\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1029,
+      "length": 15,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1054,
+      "length": 14,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1078,
+      "length": 19,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1107,
+      "length": 13,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1130,
+      "length": 12,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1152,
+      "length": 7,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1029,
+      "length": 15,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1054,
+      "length": 14,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1078,
+      "length": 19,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1107,
+      "length": 13,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1130,
+      "length": 12,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1152,
+      "length": 7,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/ToggleStandby.swift",
+      "kind": "StringLiteral",
+      "offset": 1771,
       "length": 30,
       "value": "\"MotionTagSDK.ToggleStandbyReasonObjCWrapper\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
       "kind": "StringLiteral",
-      "offset": 219,
+      "offset": 208,
+      "length": 10,
+      "value": "\"Geofence\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 8,
+      "value": "\"Beacon\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 10,
+      "value": "\"Geofence\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 8,
+      "value": "\"Beacon\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 7,
+      "value": "\"ENTER\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 6,
+      "value": "\"EXIT\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 7,
+      "value": "\"ENTER\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 6,
+      "value": "\"EXIT\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
       "length": 16,
       "value": "\"GeofenceCreate\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
       "kind": "StringLiteral",
-      "offset": 1025,
+      "offset": 1311,
       "length": 15,
       "value": "\"tracked_at_ms\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
       "kind": "StringLiteral",
-      "offset": 1025,
+      "offset": 1311,
       "length": 15,
       "value": "\"tracked_at_ms\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
-      "kind": "StringLiteral",
-      "offset": 1214,
-      "length": 7,
-      "value": "\"ENTER\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
-      "kind": "StringLiteral",
-      "offset": 1242,
-      "length": 6,
-      "value": "\"EXIT\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
-      "kind": "StringLiteral",
-      "offset": 1214,
-      "length": 7,
-      "value": "\"ENTER\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
-      "kind": "StringLiteral",
-      "offset": 1242,
-      "length": 6,
-      "value": "\"EXIT\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1354,
-      "length": 4,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceCreate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1354,
-      "length": 4,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceTrigger.swift",
@@ -2571,58 +3090,16 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceTrigger.swift",
       "kind": "StringLiteral",
-      "offset": 989,
+      "offset": 1098,
       "length": 15,
       "value": "\"tracked_at_ms\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceTrigger.swift",
       "kind": "StringLiteral",
-      "offset": 989,
+      "offset": 1098,
       "length": 15,
       "value": "\"tracked_at_ms\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceTrigger.swift",
-      "kind": "StringLiteral",
-      "offset": 1178,
-      "length": 7,
-      "value": "\"ENTER\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceTrigger.swift",
-      "kind": "StringLiteral",
-      "offset": 1206,
-      "length": 6,
-      "value": "\"EXIT\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceTrigger.swift",
-      "kind": "StringLiteral",
-      "offset": 1178,
-      "length": 7,
-      "value": "\"ENTER\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceTrigger.swift",
-      "kind": "StringLiteral",
-      "offset": 1206,
-      "length": 6,
-      "value": "\"EXIT\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceTrigger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1320,
-      "length": 4,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/GeofenceTrigger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1320,
-      "length": 4,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Events\/IOSActivity.swift",
@@ -2837,14 +3314,14 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 6877,
+      "offset": 7717,
       "length": 2,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 8286,
+      "offset": 9576,
       "length": 2,
       "value": "1"
     },
@@ -2931,6 +3408,20 @@
       "offset": 419,
       "length": 2,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 461,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 475,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Logging\/DDLog.swift",
@@ -3190,6 +3681,13 @@
       "offset": 923,
       "length": 21,
       "value": "\"kMOTSequentialIdKey\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Storage\/Keychain\/Protocols\/KeychainItems.swift",
+      "kind": "StringLiteral",
+      "offset": 1004,
+      "length": 15,
+      "value": "\"kMOTUserIDKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/MotionTagSDK\/Location\/Managers\/Stay\/Cluster.swift",
