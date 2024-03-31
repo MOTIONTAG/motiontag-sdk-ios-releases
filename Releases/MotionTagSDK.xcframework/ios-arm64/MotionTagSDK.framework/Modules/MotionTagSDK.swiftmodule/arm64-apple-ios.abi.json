@@ -2985,71 +2985,64 @@
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1783,
-      "length": 17,
-      "value": "\"2-SBBStationsID\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1879,
+      "offset": 1787,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1935,
+      "offset": 1843,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1999,
+      "offset": 1907,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 2006,
+      "offset": 1914,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2137,
+      "offset": 2045,
       "length": 23,
       "value": "\"http:\/\/localhost:8080\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2163,
+      "offset": 2071,
       "length": 27,
       "value": "\"https:\/\/api.motion-tag.de\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2291,
+      "offset": 2199,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2337,
+      "offset": 2245,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2364,
+      "offset": 2272,
       "length": 1,
       "value": "0"
     },
@@ -3609,63 +3602,70 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconRanger.swift",
       "kind": "BooleanLiteral",
-      "offset": 1024,
+      "offset": 1082,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconRanger.swift",
       "kind": "IntegerLiteral",
-      "offset": 1145,
+      "offset": 1203,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconRanger.swift",
       "kind": "BooleanLiteral",
-      "offset": 2221,
+      "offset": 2384,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconRanger.swift",
       "kind": "BooleanLiteral",
-      "offset": 2960,
+      "offset": 3169,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconRanger.swift",
       "kind": "IntegerLiteral",
-      "offset": 3065,
+      "offset": 3274,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconRanger.swift",
       "kind": "BooleanLiteral",
-      "offset": 3150,
+      "offset": 3436,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconRanger.swift",
+      "kind": "StringLiteral",
+      "offset": 3488,
+      "length": 24,
+      "value": "\"Starting force ranging\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconRanger.swift",
       "kind": "BooleanLiteral",
-      "offset": 3758,
+      "offset": 4117,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconRanger.swift",
       "kind": "IntegerLiteral",
-      "offset": 4062,
+      "offset": 4421,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconRanger.swift",
       "kind": "IntegerLiteral",
-      "offset": 5261,
+      "offset": 5620,
       "length": 1,
       "value": "1"
     },
