@@ -20,7 +20,6 @@
 @property (nonatomic, strong) NSString * _Nullable userToken;
 @property (nonatomic, assign) BOOL wifiOnlyDataTransfer;
 @property (nonatomic, assign, readonly) BOOL hasRequiredPermissions;
-@property (nonatomic, assign, readonly) BOOL isLocationServicesEnabled;
 @property (nonatomic, strong, readonly) NSString * _Nonnull version;
 
 - (void)initializeUsing:(NSObject<MotionTagDelegate>* _Nonnull) delegate
