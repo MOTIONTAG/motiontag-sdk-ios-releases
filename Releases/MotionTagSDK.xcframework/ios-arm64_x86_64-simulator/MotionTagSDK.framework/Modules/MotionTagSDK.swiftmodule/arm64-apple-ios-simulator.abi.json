@@ -257,6 +257,922 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkReachabilityManager",
+        "printedName": "NetworkReachabilityManager",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "NetworkReachabilityStatus",
+            "printedName": "NetworkReachabilityStatus",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "unknown",
+                "printedName": "unknown",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.Type) -> MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkReachabilityStatus",
+                        "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
+                        "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NetworkReachabilityStatus",
+                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
+                            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO7unknownyA2EmF",
+                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO7unknownyA2EmF",
+                "moduleName": "MotionTagSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "notReachable",
+                "printedName": "notReachable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.Type) -> MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkReachabilityStatus",
+                        "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
+                        "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NetworkReachabilityStatus",
+                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
+                            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO12notReachableyA2EmF",
+                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO12notReachableyA2EmF",
+                "moduleName": "MotionTagSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "reachable",
+                "printedName": "reachable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.Type) -> (MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType) -> MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType) -> MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NetworkReachabilityStatus",
+                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
+                            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConnectionType",
+                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NetworkReachabilityStatus",
+                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
+                            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO9reachableyA2E14ConnectionTypeOcAEmF",
+                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO9reachableyA2E14ConnectionTypeOcAEmF",
+                "moduleName": "MotionTagSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "ConnectionType",
+                "printedName": "ConnectionType",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "ethernetOrWiFi",
+                    "printedName": "ethernetOrWiFi",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType.Type) -> MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConnectionType",
+                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ConnectionType",
+                                "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO14ethernetOrWiFiyA2GmF",
+                    "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO14ethernetOrWiFiyA2GmF",
+                    "moduleName": "MotionTagSDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "cellular",
+                    "printedName": "cellular",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType.Type) -> MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConnectionType",
+                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ConnectionType",
+                                "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO8cellularyA2GmF",
+                    "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO8cellularyA2GmF",
+                    "moduleName": "MotionTagSDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "==",
+                    "printedName": "==(_:_:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionType",
+                        "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                        "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionType",
+                        "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                        "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO2eeoiySbAG_AGtFZ",
+                    "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO2eeoiySbAG_AGtFZ",
+                    "moduleName": "MotionTagSDK",
+                    "static": true,
+                    "implicit": true,
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "hashValue",
+                    "printedName": "hashValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO9hashValueSivp",
+                    "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO9hashValueSivp",
+                    "moduleName": "MotionTagSDK",
+                    "implicit": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO9hashValueSivg",
+                        "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO9hashValueSivg",
+                        "moduleName": "MotionTagSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "hash",
+                    "printedName": "hash(into:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Hasher",
+                        "printedName": "Swift.Hasher",
+                        "paramValueOwnership": "InOut",
+                        "usr": "s:s6HasherV"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO4hash4intoys6HasherVz_tF",
+                    "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO4hash4intoys6HasherVz_tF",
+                    "moduleName": "MotionTagSDK",
+                    "implicit": true,
+                    "funcSelfKind": "NonMutating"
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO",
+                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO",
+                "moduleName": "MotionTagSDK",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Hashable",
+                    "printedName": "Hashable",
+                    "usr": "s:SH",
+                    "mangledName": "$sSH"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReachabilityStatus",
+                    "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
+                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReachabilityStatus",
+                    "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
+                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO2eeoiySbAE_AEtFZ",
+                "moduleName": "MotionTagSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO",
+            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO",
+            "moduleName": "MotionTagSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MotionTagSDK.NetworkReachabilityManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReachabilityManager",
+                    "printedName": "MotionTagSDK.NetworkReachabilityManager",
+                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC7defaultACSgvpZ",
+            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC7defaultACSgvpZ",
+            "moduleName": "MotionTagSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MotionTagSDK.NetworkReachabilityManager?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkReachabilityManager",
+                        "printedName": "MotionTagSDK.NetworkReachabilityManager",
+                        "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC7defaultACSgvgZ",
+                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC7defaultACSgvgZ",
+                "moduleName": "MotionTagSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isReachable",
+            "printedName": "isReachable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC11isReachableSbvp",
+            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC11isReachableSbvp",
+            "moduleName": "MotionTagSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC11isReachableSbvg",
+                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC11isReachableSbvg",
+                "moduleName": "MotionTagSDK",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isReachableOnCellular",
+            "printedName": "isReachableOnCellular",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC21isReachableOnCellularSbvp",
+            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC21isReachableOnCellularSbvp",
+            "moduleName": "MotionTagSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC21isReachableOnCellularSbvg",
+                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC21isReachableOnCellularSbvg",
+                "moduleName": "MotionTagSDK",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isReachableOnEthernetOrWiFi",
+            "printedName": "isReachableOnEthernetOrWiFi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC27isReachableOnEthernetOrWiFiSbvp",
+            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC27isReachableOnEthernetOrWiFiSbvp",
+            "moduleName": "MotionTagSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC27isReachableOnEthernetOrWiFiSbvg",
+                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC27isReachableOnEthernetOrWiFiSbvg",
+                "moduleName": "MotionTagSDK",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reachabilityQueue",
+            "printedName": "reachabilityQueue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC17reachabilityQueueSo17OS_dispatch_queueCvp",
+            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC17reachabilityQueueSo17OS_dispatch_queueCvp",
+            "moduleName": "MotionTagSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC17reachabilityQueueSo17OS_dispatch_queueCvg",
+                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC17reachabilityQueueSo17OS_dispatch_queueCvg",
+                "moduleName": "MotionTagSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "flags",
+            "printedName": "flags",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SystemConfiguration.SCNetworkReachabilityFlags?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCNetworkReachabilityFlags",
+                    "printedName": "SystemConfiguration.SCNetworkReachabilityFlags",
+                    "usr": "c:@E@SCNetworkReachabilityFlags"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC5flagsSo09SCNetworkE5FlagsVSgvp",
+            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC5flagsSo09SCNetworkE5FlagsVSgvp",
+            "moduleName": "MotionTagSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SystemConfiguration.SCNetworkReachabilityFlags?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCNetworkReachabilityFlags",
+                        "printedName": "SystemConfiguration.SCNetworkReachabilityFlags",
+                        "usr": "c:@E@SCNetworkReachabilityFlags"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC5flagsSo09SCNetworkE5FlagsVSgvg",
+                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC5flagsSo09SCNetworkE5FlagsVSgvg",
+                "moduleName": "MotionTagSDK",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkReachabilityStatus",
+                "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
+                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC6statusAC0dE6StatusOvp",
+            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC6statusAC0dE6StatusOvp",
+            "moduleName": "MotionTagSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReachabilityStatus",
+                    "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
+                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC6statusAC0dE6StatusOvg",
+                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC6statusAC0dE6StatusOvg",
+                "moduleName": "MotionTagSDK",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(host:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MotionTagSDK.NetworkReachabilityManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReachabilityManager",
+                    "printedName": "MotionTagSDK.NetworkReachabilityManager",
+                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC4hostACSgSS_tcfc",
+            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC4hostACSgSS_tcfc",
+            "moduleName": "MotionTagSDK",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MotionTagSDK.NetworkReachabilityManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReachabilityManager",
+                    "printedName": "MotionTagSDK.NetworkReachabilityManager",
+                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerCACSgycfc",
+            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerCACSgycfc",
+            "moduleName": "MotionTagSDK",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "startListening",
+            "printedName": "startListening(onQueue:onUpdatePerforming:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReachabilityStatus",
+                    "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
+                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC14startListening7onQueue0I16UpdatePerformingSbSo17OS_dispatch_queueC_yAC0dE6StatusOctF",
+            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC14startListening7onQueue0I16UpdatePerformingSbSo17OS_dispatch_queueC_yAC0dE6StatusOctF",
+            "moduleName": "MotionTagSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopListening",
+            "printedName": "stopListening()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC13stopListeningyyF",
+            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC13stopListeningyyF",
+            "moduleName": "MotionTagSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC",
+        "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC",
+        "moduleName": "MotionTagSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
         "name": "CoreMotion",
         "printedName": "CoreMotion",
         "declKind": "Import",
@@ -287,8 +1203,8 @@
       },
       {
         "kind": "Import",
-        "name": "Network",
-        "printedName": "Network",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "MotionTagSDK",
         "declAttributes": [
@@ -764,6 +1680,16 @@
         "printedName": "CoreBluetooth",
         "declKind": "Import",
         "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -1896,6 +2822,13 @@
       "value": "\"MotionTagSDK.PreWakeUpReasonObjCWrapper\""
     },
     {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/ThirdParty\/Reachability\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 4080,
+      "length": 33,
+      "value": "\"org.motiontag.reachabilityQueue\""
+    },
+    {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Debug.swift",
       "kind": "StringLiteral",
       "offset": 170,
@@ -2073,7 +3006,14 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Reachability\/ReachabilityTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 616,
+      "offset": 544,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Reachability\/ReachabilityTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 712,
       "length": 5,
       "value": "false"
     },
@@ -3494,7 +4434,7 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 8292,
+      "offset": 12310,
       "length": 2,
       "value": "-1"
     },

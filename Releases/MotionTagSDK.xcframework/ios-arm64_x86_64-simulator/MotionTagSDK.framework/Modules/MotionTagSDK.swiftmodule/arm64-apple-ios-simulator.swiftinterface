@@ -10,11 +10,57 @@ import Foundation
 @_exported import MotionTagSDK
 import Network
 import Swift
+import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers open class NetworkReachabilityManager {
+  public enum NetworkReachabilityStatus {
+    case unknown
+    case notReachable
+    case reachable(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType)
+    public enum ConnectionType {
+      case ethernetOrWiFi
+      case cellular
+      public static func == (a: MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType, b: MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType) -> Swift.Bool
+      public func hash(into hasher: inout Swift.Hasher)
+      public var hashValue: Swift.Int {
+        get
+      }
+    }
+  }
+  public typealias Listener = (MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus) -> Swift.Void
+  public static let `default`: MotionTagSDK.NetworkReachabilityManager?
+  open var isReachable: Swift.Bool {
+    get
+  }
+  open var isReachableOnCellular: Swift.Bool {
+    get
+  }
+  open var isReachableOnEthernetOrWiFi: Swift.Bool {
+    get
+  }
+  final public let reachabilityQueue: Dispatch.DispatchQueue
+  open var flags: SystemConfiguration.SCNetworkReachabilityFlags? {
+    get
+  }
+  open var status: MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus {
+    get
+  }
+  convenience public init?(host: Swift.String)
+  convenience public init?()
+  @objc deinit
+  @discardableResult
+  open func startListening(onQueue queue: Dispatch.DispatchQueue = .main, onUpdatePerforming listener: @escaping MotionTagSDK.NetworkReachabilityManager.Listener) -> Swift.Bool
+  open func stopListening()
+}
+extension MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus : Swift.Equatable {
+  public static func == (a: MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus, b: MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus) -> Swift.Bool
+}
 @_hasMissingDesignatedInitializers public class StringMisc {
   public static func byteArrayToHexString(_ byteArray: [Swift.UInt8]) -> Swift.String
   @objc deinit
 }
+extension MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType : Swift.Equatable {}
+extension MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType : Swift.Hashable {}
