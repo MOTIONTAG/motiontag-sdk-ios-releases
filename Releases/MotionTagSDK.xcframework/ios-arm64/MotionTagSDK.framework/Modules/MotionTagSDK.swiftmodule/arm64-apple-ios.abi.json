@@ -2092,6 +2092,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
         "declKind": "Import",
@@ -4259,7 +4269,7 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 12284,
+      "offset": 12663,
       "length": 2,
       "value": "-1"
     },
@@ -4371,7 +4381,7 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/SDKSettings\/SDKSettingsTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 430,
+      "offset": 435,
       "length": 5,
       "value": "false"
     },
@@ -4437,6 +4447,55 @@
       "offset": 1004,
       "length": 15,
       "value": "\"kMOTUserIDKey\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/DeviceSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 16,
+      "value": "\"DeviceSettings\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/DeviceSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 644,
+      "length": 15,
+      "value": "\"tracked_at_ms\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/DeviceSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 689,
+      "length": 17,
+      "value": "\"power_save_mode\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/DeviceSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 743,
+      "length": 24,
+      "value": "\"background_app_refresh\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/DeviceSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 644,
+      "length": 15,
+      "value": "\"tracked_at_ms\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/DeviceSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 689,
+      "length": 17,
+      "value": "\"power_save_mode\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/DeviceSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 743,
+      "length": 24,
+      "value": "\"background_app_refresh\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Stay\/Cluster.swift",
