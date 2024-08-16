@@ -2439,7 +2439,7 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/TrackerDependencies.swift",
       "kind": "StringLiteral",
-      "offset": 387,
+      "offset": 369,
       "length": 19,
       "value": "\"MotionTagSDK.TrackerDependencies\""
     },
@@ -4385,7 +4385,7 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Battery\/BatteryMonitoringManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 419,
+      "offset": 418,
       "length": 2,
       "value": "-1"
     },
