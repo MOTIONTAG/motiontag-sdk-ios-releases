@@ -3,4 +3,4 @@
 variables:
   - group: iOS
   - name: vmImage
-    value: 'macos-13'
+    value: 'macos-14'
