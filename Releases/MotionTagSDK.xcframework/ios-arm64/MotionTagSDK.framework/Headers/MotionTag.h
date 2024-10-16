@@ -16,7 +16,6 @@
 @protocol MotionTagDelegate;
 
 @protocol MotionTag
-@property (nonatomic, assign, readonly) BOOL isTrackingActive;
 @property (nonatomic, strong) NSString * _Nullable userToken;
 @property (nonatomic, assign) BOOL wifiOnlyDataTransfer;
 @property (nonatomic, assign, readonly) BOOL hasRequiredPermissions;
@@ -27,7 +26,7 @@
 
 - (void)start;
 - (void)stop;
-- (void)handleEventsForBackgroundURLSession:(NSString* _Nonnull) identifier completionHandler:(void (^ _Nonnull)(void)) completionHandler;
+- (void)processBackgroundSessionEventsWith:(NSString* _Nonnull)identifier completionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (NSInteger)clearData;
 @end
 
