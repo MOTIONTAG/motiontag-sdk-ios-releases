@@ -27,7 +27,7 @@
 
 - (void)start;
 - (void)stop;
-- (void)handleEventsForBackgroundURLSession:(NSString* _Nonnull) identifier completionHandler:(void (^ _Nonnull)(void)) completionHandler;
+- (void)processBackgroundSessionEventsWith:(NSString* _Nonnull) identifier completionHandler:(void (^ _Nonnull)(void)) completionHandler;
 - (NSInteger)clearData;
 @end
 
