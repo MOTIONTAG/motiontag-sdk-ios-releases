@@ -2643,14 +2643,14 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/TrackerRepository.swift",
       "kind": "StringLiteral",
-      "offset": 9027,
+      "offset": 9017,
       "length": 19,
       "value": "\"api.motion-tag.de\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/TrackerRepository.swift",
       "kind": "StringLiteral",
-      "offset": 9078,
+      "offset": 9068,
       "length": 45,
       "value": "\"Cannot construct NetworkReachabilityManager\""
     },
@@ -3973,14 +3973,21 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/KeychainItems.swift",
       "kind": "StringLiteral",
-      "offset": 847,
+      "offset": 841,
+      "length": 16,
+      "value": "\"kMOTBatchIdKey\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/KeychainItems.swift",
+      "kind": "StringLiteral",
+      "offset": 923,
       "length": 21,
       "value": "\"kMOTSequentialIdKey\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/KeychainItems.swift",
       "kind": "StringLiteral",
-      "offset": 928,
+      "offset": 1004,
       "length": 15,
       "value": "\"kMOTUserIDKey\""
     },
