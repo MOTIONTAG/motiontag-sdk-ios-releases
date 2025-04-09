@@ -1394,16 +1394,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1434,80 +1424,12 @@
       },
       {
         "kind": "Import",
-        "name": "CoreBluetooth",
-        "printedName": "CoreBluetooth",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "MotionTagSDK",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "StringMisc",
-        "printedName": "StringMisc",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "byteArrayToHexString",
-            "printedName": "byteArrayToHexString(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.UInt8]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt8",
-                    "printedName": "Swift.UInt8",
-                    "usr": "s:s5UInt8V"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12MotionTagSDK10StringMiscC014byteArrayToHexD0ySSSays5UInt8VGFZ",
-            "mangledName": "$s12MotionTagSDK10StringMiscC014byteArrayToHexD0ySSSays5UInt8VGFZ",
-            "moduleName": "MotionTagSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:12MotionTagSDK10StringMiscC",
-        "mangledName": "$s12MotionTagSDK10StringMiscC",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -1682,6 +1604,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
@@ -1720,23 +1652,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreBluetooth",
-        "printedName": "CoreBluetooth",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK"
       },
       {
         "kind": "Import",
@@ -2457,6 +2372,115 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "NSDate",
+        "printedName": "NSDate",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSDate",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSDate",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "UIDevice",
         "printedName": "UIDevice",
         "declKind": "Class",
@@ -2643,14 +2667,14 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/TrackerRepository.swift",
       "kind": "StringLiteral",
-      "offset": 9017,
+      "offset": 8857,
       "length": 19,
       "value": "\"api.motion-tag.de\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/TrackerRepository.swift",
       "kind": "StringLiteral",
-      "offset": 9068,
+      "offset": 8908,
       "length": 45,
       "value": "\"Cannot construct NetworkReachabilityManager\""
     },
@@ -2664,91 +2688,91 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 898,
+      "offset": 991,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 909,
+      "offset": 1002,
       "length": 3,
       "value": "\"+\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 956,
+      "offset": 1049,
       "length": 3,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 967,
+      "offset": 1060,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1039,
+      "offset": 1132,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1044,
+      "offset": 1137,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1049,
+      "offset": 1142,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 1061,
+      "offset": 1154,
       "length": 3,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1078,
+      "offset": 1171,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "Array",
-      "offset": 1446,
+      "offset": 1539,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 1656,
+      "offset": 1749,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1689,
+      "offset": 1782,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1782,
+      "offset": 1875,
       "length": 1,
       "value": "1"
     },
@@ -3328,15 +3352,29 @@
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 2166,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2173,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2177,
+      "offset": 2302,
       "length": 23,
       "value": "\"http:\/\/localhost:8080\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2203,
+      "offset": 2328,
       "length": 27,
       "value": "\"https:\/\/api.motion-tag.de\""
     },
@@ -3504,14 +3542,14 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconRanger.swift",
       "kind": "BooleanLiteral",
-      "offset": 1082,
+      "offset": 1036,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconRanger.swift",
       "kind": "IntegerLiteral",
-      "offset": 1203,
+      "offset": 1157,
       "length": 1,
       "value": "0"
     },
@@ -3542,62 +3580,6 @@
       "offset": 1517,
       "length": 7,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Eddystone.swift",
-      "kind": "StringLiteral",
-      "offset": 221,
-      "length": 11,
-      "value": "\"Eddystone\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Eddystone.swift",
-      "kind": "StringLiteral",
-      "offset": 507,
-      "length": 10,
-      "value": "\"protocol\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Eddystone.swift",
-      "kind": "StringLiteral",
-      "offset": 545,
-      "length": 15,
-      "value": "\"tracked_at_ms\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Eddystone.swift",
-      "kind": "StringLiteral",
-      "offset": 580,
-      "length": 5,
-      "value": "\"eid\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Eddystone.swift",
-      "kind": "StringLiteral",
-      "offset": 606,
-      "length": 6,
-      "value": "\"rssi\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStoneScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 314,
-      "length": 25,
-      "value": "\"beacon_operations_queue\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStoneScanner.swift",
-      "kind": "BooleanLiteral",
-      "offset": 477,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStoneScanner.swift",
-      "kind": "Array",
-      "offset": 3326,
-      "length": 82,
-      "value": "[\"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"a\", \"b\", \"c\", \"d\", \"e\", \"f\"]"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Acceleration.swift",
@@ -3733,144 +3715,39 @@
       "value": "2"
     },
     {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/TokenTransmissionGuard.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1552,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 13752,
+      "offset": 13172,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
       "kind": "StringLiteral",
-      "offset": 13924,
+      "offset": 13344,
       "length": 38,
       "value": "\"Failed to fetch BaseEvents: \""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
       "kind": "StringLiteral",
-      "offset": 13961,
+      "offset": 13381,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 14844,
+      "offset": 14264,
       "length": 2,
       "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStone.swift",
-      "kind": "StringLiteral",
-      "offset": 1364,
-      "length": 27,
-      "value": "\"BeaconID beacon: \""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStone.swift",
-      "kind": "StringLiteral",
-      "offset": 1390,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStone.swift",
-      "kind": "StringLiteral",
-      "offset": 1418,
-      "length": 44,
-      "value": "\"BeaconID with invalid type (\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStone.swift",
-      "kind": "StringLiteral",
-      "offset": 1460,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStone.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1987,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStone.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2038,
-      "length": 4,
-      "value": "0x10"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStone.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2089,
-      "length": 4,
-      "value": "0x20"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStone.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2140,
-      "length": 4,
-      "value": "0x30"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStone.swift",
-      "kind": "StringLiteral",
-      "offset": 6778,
-      "length": 74,
-      "value": "\"Eddystone \""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStone.swift",
-      "kind": "StringLiteral",
-      "offset": 6805,
-      "length": 1,
-      "value": "\", txPower: \""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStone.swift",
-      "kind": "StringLiteral",
-      "offset": 6831,
-      "length": 1,
-      "value": "\", RSSI: \""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStone.swift",
-      "kind": "StringLiteral",
-      "offset": 6851,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStone.swift",
-      "kind": "StringLiteral",
-      "offset": 6890,
-      "length": 78,
-      "value": "\"eddystone EID \""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStone.swift",
-      "kind": "StringLiteral",
-      "offset": 6921,
-      "length": 1,
-      "value": "\", txPower: \""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStone.swift",
-      "kind": "StringLiteral",
-      "offset": 6947,
-      "length": 1,
-      "value": "\", RSSI: \""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/EddyStone.swift",
-      "kind": "StringLiteral",
-      "offset": 6967,
-      "length": 1,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Database\/CoreData\/CoreDataManager.swift",
@@ -3882,7 +3759,7 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/CredentialsManager.swift",
       "kind": "StringLiteral",
-      "offset": 317,
+      "offset": 338,
       "length": 43,
       "value": "\"Attempting to insert nil item in Keychain\""
     },
