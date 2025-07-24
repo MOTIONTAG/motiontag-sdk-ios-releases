@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MotionTagSDK",
-            url: "https://mtbetatesting.web.app/archive_6.3.1_2025042501.zip",
-            checksum: "2a6236ac3426a9ab6f5c143ab7f3cea2fb9af57a2843b827a2b9a8f0c5c940a4"
+            url: "https://mtbetatesting.web.app/archive_6.3.4_2025062401.zip",
+            checksum: "da4da93f3567534f09852bcfab6aa45b6383917272a6c947715097df7339077f"
         )
     ]
 )
