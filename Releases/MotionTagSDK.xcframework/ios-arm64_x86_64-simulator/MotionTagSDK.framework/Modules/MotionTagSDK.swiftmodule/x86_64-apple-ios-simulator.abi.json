@@ -16,6 +16,13 @@
       },
       {
         "kind": "Import",
+        "name": "BackgroundTasks",
+        "printedName": "BackgroundTasks",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
         "name": "CoreFoundation",
         "printedName": "CoreFoundation",
         "declKind": "Import",
@@ -1426,6 +1433,16 @@
         "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "MotionTagSDK",
         "declAttributes": [
@@ -3548,6 +3565,20 @@
       "value": "1"
     },
     {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/DeepSleep.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 11,
+      "value": "\"DeepSleep\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/DeepSleep.swift",
+      "kind": "StringLiteral",
+      "offset": 362,
+      "length": 15,
+      "value": "\"tracked_at_ms\""
+    },
+    {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Acceleration.swift",
       "kind": "StringLiteral",
       "offset": 177,
@@ -3690,28 +3721,28 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 13172,
+      "offset": 13346,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
       "kind": "StringLiteral",
-      "offset": 13344,
+      "offset": 13518,
       "length": 38,
       "value": "\"Failed to fetch BaseEvents: \""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
       "kind": "StringLiteral",
-      "offset": 13381,
+      "offset": 13555,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 14264,
+      "offset": 14438,
       "length": 2,
       "value": "-1"
     },
