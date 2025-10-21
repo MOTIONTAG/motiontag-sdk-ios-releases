@@ -18,10 +18,10 @@ your needs.
 
 More information can be found on our website.
 
-**Website:** https://motion-tag.com/
+**Website:** https://motiontag.com/
 
-**Documentation:** https://api.motion-tag.de/developer/ios
+**Documentation:** https://api.motion-tag.de/developer/ios?locale=en&os_aspect=sdk 
 
-**Changelog:** https://api.motion-tag.de/developer/ios_changelog
+**Changelog:** https://api.motion-tag.de/developer/ios?locale=en&os_aspect=changelog 
 
 **SDK License:** https://api.motion-tag.de/developer/sdk_test_license
