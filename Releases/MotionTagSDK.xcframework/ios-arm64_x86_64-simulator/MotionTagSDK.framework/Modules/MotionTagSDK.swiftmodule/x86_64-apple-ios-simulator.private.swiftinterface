@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MotionTagSDK
+// swift-compiler-version: Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios13-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -module-name MotionTagSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import BackgroundTasks
 import CoreData
@@ -16,12 +16,12 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers open class NetworkReachabilityManager {
-  public enum NetworkReachabilityStatus {
+@_hasMissingDesignatedInitializers open class NetworkReachabilityManager : @unchecked Swift.Sendable {
+  public enum NetworkReachabilityStatus : Swift.Sendable {
     case unknown
     case notReachable
     case reachable(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType)
-    public enum ConnectionType {
+    public enum ConnectionType : Swift.Sendable {
       case ethernetOrWiFi
       case cellular
       public static func == (a: MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType, b: MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType) -> Swift.Bool
@@ -31,8 +31,8 @@ import _SwiftConcurrencyShims
       }
     }
   }
-  public typealias Listener = (MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus) -> Swift.Void
-  public static let `default`: MotionTagSDK.NetworkReachabilityManager?
+  public typealias Listener = @Sendable (MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus) -> Swift.Void
+  @_Concurrency.MainActor public static let `default`: MotionTagSDK.NetworkReachabilityManager?
   open var isReachable: Swift.Bool {
     get
   }
