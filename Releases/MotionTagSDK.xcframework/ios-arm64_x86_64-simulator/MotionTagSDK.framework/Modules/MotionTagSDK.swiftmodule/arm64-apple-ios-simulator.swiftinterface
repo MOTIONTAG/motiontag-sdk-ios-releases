@@ -1,14 +1,13 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name MotionTagSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
-import BackgroundTasks
-import CoreData
+// swift-compiler-version: Apple Swift version 6.3 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -O -enable-experimental-feature DebugDescriptionMacro -module-name MotionTagSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
+@preconcurrency import BackgroundTasks
+@preconcurrency import CoreData
 import CoreFoundation
 import CoreLocation
 import CoreMotion
 import Foundation
-@_exported import MotionTagSDK
 import Network
 import Swift
 import SystemConfiguration
@@ -16,54 +15,29 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers open class NetworkReachabilityManager : @unchecked Swift.Sendable {
-  public enum NetworkReachabilityStatus : Swift.Sendable {
-    case unknown
-    case notReachable
-    case reachable(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType)
-    public enum ConnectionType : Swift.Sendable {
-      case ethernetOrWiFi
-      case cellular
-      public static func == (a: MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType, b: MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType) -> Swift.Bool
-      public func hash(into hasher: inout Swift.Hasher)
-      public var hashValue: Swift.Int {
-        get
-      }
-    }
-  }
-  public typealias Listener = @Sendable (MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus) -> Swift.Void
-  @_Concurrency.MainActor public static let `default`: MotionTagSDK.NetworkReachabilityManager?
-  open var isReachable: Swift.Bool {
+import zlib
+@_Concurrency.MainActor public protocol MotionTagDelegate : AnyObject, Swift.Sendable {
+  @_Concurrency.MainActor func trackingDidChange(isTracking: Swift.Bool)
+  @_Concurrency.MainActor func locationAuthorizationDidChange(status: CoreLocation.CLAuthorizationStatus, isPrecise: Swift.Bool)
+  @_Concurrency.MainActor func motionActivityAuthorizationDidChange(isAuthorized: Swift.Bool)
+  @_Concurrency.MainActor func didUpdateLocation(_ location: _LocationEssentials.CLLocation)
+  @_Concurrency.MainActor func dataUploadDidComplete(from startDate: Foundation.Date, to endDate: Foundation.Date, error: (any Swift.Error)?)
+}
+@_Concurrency.MainActor public protocol MotionTag : Swift.Sendable {
+  @_Concurrency.MainActor func initialize(using delegate: any MotionTagSDK.MotionTagDelegate, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
+  @_Concurrency.MainActor var userToken: Swift.String? { get set }
+  @_Concurrency.MainActor func start()
+  @_Concurrency.MainActor func stop()
+  @_Concurrency.MainActor var isTrackingActive: Swift.Bool { get }
+  @_Concurrency.MainActor var wifiOnlyDataTransfer: Swift.Bool { get set }
+  @_Concurrency.MainActor func processBackgroundSessionEvents(with identifier: Swift.String) async
+  @_Concurrency.MainActor var hasRequiredPermissions: Swift.Bool { get }
+  @_Concurrency.MainActor var version: Swift.String { get }
+  @_Concurrency.MainActor func clearData() -> Swift.Int
+}
+@_hasMissingDesignatedInitializers final public class MotionTagCore {
+  @_Concurrency.MainActor public static var sharedInstance: any MotionTagSDK.MotionTag {
     get
   }
-  open var isReachableOnCellular: Swift.Bool {
-    get
-  }
-  open var isReachableOnEthernetOrWiFi: Swift.Bool {
-    get
-  }
-  final public let reachabilityQueue: Dispatch.DispatchQueue
-  #if compiler(>=5.3) && $NonescapableTypes
-  open var flags: SystemConfiguration.SCNetworkReachabilityFlags? {
-    get
-  }
-  #endif
-  open var status: MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus {
-    get
-  }
-  #if compiler(>=5.3) && $NonescapableTypes
-  convenience public init?(host: Swift.String)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  convenience public init?()
-  #endif
   @objc deinit
-  @discardableResult
-  open func startListening(onQueue queue: Dispatch.DispatchQueue = .main, onUpdatePerforming listener: @escaping MotionTagSDK.NetworkReachabilityManager.Listener) -> Swift.Bool
-  open func stopListening()
 }
-extension MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus : Swift.Equatable {
-  public static func == (a: MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus, b: MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus) -> Swift.Bool
-}
-extension MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType : Swift.Equatable {}
-extension MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType : Swift.Hashable {}
