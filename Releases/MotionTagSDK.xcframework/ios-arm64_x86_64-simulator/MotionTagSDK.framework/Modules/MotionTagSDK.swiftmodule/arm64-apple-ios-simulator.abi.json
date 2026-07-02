@@ -16,13 +16,6 @@
       },
       {
         "kind": "Import",
-        "name": "BackgroundTasks",
-        "printedName": "BackgroundTasks",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK"
-      },
-      {
-        "kind": "Import",
         "name": "CoreFoundation",
         "printedName": "CoreFoundation",
         "declKind": "Import",
@@ -130,47 +123,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreMotion",
-        "printedName": "CoreMotion",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreMotion",
-        "printedName": "CoreMotion",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -261,6 +213,30 @@
       },
       {
         "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -282,995 +258,6 @@
         "printedName": "SystemConfiguration",
         "declKind": "Import",
         "moduleName": "MotionTagSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "NetworkReachabilityManager",
-        "printedName": "NetworkReachabilityManager",
-        "children": [
-          {
-            "kind": "TypeDecl",
-            "name": "NetworkReachabilityStatus",
-            "printedName": "NetworkReachabilityStatus",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "unknown",
-                "printedName": "unknown",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.Type) -> MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetworkReachabilityStatus",
-                        "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
-                        "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "NetworkReachabilityStatus",
-                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
-                            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO7unknownyA2EmF",
-                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO7unknownyA2EmF",
-                "moduleName": "MotionTagSDK",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "notReachable",
-                "printedName": "notReachable",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.Type) -> MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetworkReachabilityStatus",
-                        "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
-                        "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "NetworkReachabilityStatus",
-                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
-                            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO12notReachableyA2EmF",
-                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO12notReachableyA2EmF",
-                "moduleName": "MotionTagSDK",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "reachable",
-                "printedName": "reachable",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.Type) -> (MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType) -> MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType) -> MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "NetworkReachabilityStatus",
-                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
-                            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ConnectionType",
-                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
-                            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO"
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "NetworkReachabilityStatus",
-                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
-                            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO9reachableyA2E14ConnectionTypeOcAEmF",
-                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO9reachableyA2E14ConnectionTypeOcAEmF",
-                "moduleName": "MotionTagSDK",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "TypeDecl",
-                "name": "ConnectionType",
-                "printedName": "ConnectionType",
-                "children": [
-                  {
-                    "kind": "Var",
-                    "name": "ethernetOrWiFi",
-                    "printedName": "ethernetOrWiFi",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType.Type) -> MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ConnectionType",
-                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
-                            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Metatype",
-                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType.Type",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ConnectionType",
-                                "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
-                                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "EnumElement",
-                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO14ethernetOrWiFiyA2GmF",
-                    "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO14ethernetOrWiFiyA2GmF",
-                    "moduleName": "MotionTagSDK",
-                    "declAttributes": [
-                      "RawDocComment"
-                    ]
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "cellular",
-                    "printedName": "cellular",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType.Type) -> MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ConnectionType",
-                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
-                            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Metatype",
-                            "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType.Type",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ConnectionType",
-                                "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
-                                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "EnumElement",
-                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO8cellularyA2GmF",
-                    "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO8cellularyA2GmF",
-                    "moduleName": "MotionTagSDK",
-                    "declAttributes": [
-                      "RawDocComment"
-                    ]
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "==",
-                    "printedName": "==(_:_:)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ConnectionType",
-                        "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
-                        "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ConnectionType",
-                        "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
-                        "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO2eeoiySbAG_AGtFZ",
-                    "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO2eeoiySbAG_AGtFZ",
-                    "moduleName": "MotionTagSDK",
-                    "static": true,
-                    "implicit": true,
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "hashValue",
-                    "printedName": "hashValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Var",
-                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO9hashValueSivp",
-                    "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO9hashValueSivp",
-                    "moduleName": "MotionTagSDK",
-                    "implicit": true,
-                    "accessors": [
-                      {
-                        "kind": "Accessor",
-                        "name": "Get",
-                        "printedName": "Get()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ],
-                        "declKind": "Accessor",
-                        "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO9hashValueSivg",
-                        "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO9hashValueSivg",
-                        "moduleName": "MotionTagSDK",
-                        "implicit": true,
-                        "accessorKind": "get"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "hash",
-                    "printedName": "hash(into:)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Hasher",
-                        "printedName": "Swift.Hasher",
-                        "paramValueOwnership": "InOut",
-                        "usr": "s:s6HasherV"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO4hash4intoys6HasherVz_tF",
-                    "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO4hash4intoys6HasherVz_tF",
-                    "moduleName": "MotionTagSDK",
-                    "implicit": true,
-                    "funcSelfKind": "NonMutating"
-                  }
-                ],
-                "declKind": "Enum",
-                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO",
-                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO14ConnectionTypeO",
-                "moduleName": "MotionTagSDK",
-                "declAttributes": [
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "conformances": [
-                  {
-                    "kind": "Conformance",
-                    "name": "Copyable",
-                    "printedName": "Copyable",
-                    "usr": "s:s8CopyableP",
-                    "mangledName": "$ss8CopyableP"
-                  },
-                  {
-                    "kind": "Conformance",
-                    "name": "Escapable",
-                    "printedName": "Escapable",
-                    "usr": "s:s9EscapableP",
-                    "mangledName": "$ss9EscapableP"
-                  },
-                  {
-                    "kind": "Conformance",
-                    "name": "Equatable",
-                    "printedName": "Equatable",
-                    "usr": "s:SQ",
-                    "mangledName": "$sSQ"
-                  },
-                  {
-                    "kind": "Conformance",
-                    "name": "Hashable",
-                    "printedName": "Hashable",
-                    "usr": "s:SH",
-                    "mangledName": "$sSH"
-                  },
-                  {
-                    "kind": "Conformance",
-                    "name": "Sendable",
-                    "printedName": "Sendable",
-                    "usr": "s:s8SendableP",
-                    "mangledName": "$ss8SendableP"
-                  },
-                  {
-                    "kind": "Conformance",
-                    "name": "SendableMetatype",
-                    "printedName": "SendableMetatype",
-                    "usr": "s:s16SendableMetatypeP",
-                    "mangledName": "$ss16SendableMetatypeP"
-                  }
-                ]
-              },
-              {
-                "kind": "Function",
-                "name": "==",
-                "printedName": "==(_:_:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetworkReachabilityStatus",
-                    "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
-                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetworkReachabilityStatus",
-                    "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
-                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO2eeoiySbAE_AEtFZ",
-                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO2eeoiySbAE_AEtFZ",
-                "moduleName": "MotionTagSDK",
-                "static": true,
-                "implicit": true,
-                "isFromExtension": true,
-                "funcSelfKind": "NonMutating"
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO",
-            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO",
-            "moduleName": "MotionTagSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Sendable",
-                "printedName": "Sendable",
-                "usr": "s:s8SendableP",
-                "mangledName": "$ss8SendableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "SendableMetatype",
-                "printedName": "SendableMetatype",
-                "usr": "s:s16SendableMetatypeP",
-                "mangledName": "$ss16SendableMetatypeP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "default",
-            "printedName": "default",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "MotionTagSDK.NetworkReachabilityManager?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetworkReachabilityManager",
-                    "printedName": "MotionTagSDK.NetworkReachabilityManager",
-                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC7defaultACSgvpZ",
-            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC7defaultACSgvpZ",
-            "moduleName": "MotionTagSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "Custom",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "MotionTagSDK.NetworkReachabilityManager?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetworkReachabilityManager",
-                        "printedName": "MotionTagSDK.NetworkReachabilityManager",
-                        "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC7defaultACSgvgZ",
-                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC7defaultACSgvgZ",
-                "moduleName": "MotionTagSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "isReachable",
-            "printedName": "isReachable",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC11isReachableSbvp",
-            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC11isReachableSbvp",
-            "moduleName": "MotionTagSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC11isReachableSbvg",
-                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC11isReachableSbvg",
-                "moduleName": "MotionTagSDK",
-                "isOpen": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "isReachableOnCellular",
-            "printedName": "isReachableOnCellular",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC21isReachableOnCellularSbvp",
-            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC21isReachableOnCellularSbvp",
-            "moduleName": "MotionTagSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC21isReachableOnCellularSbvg",
-                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC21isReachableOnCellularSbvg",
-                "moduleName": "MotionTagSDK",
-                "isOpen": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "isReachableOnEthernetOrWiFi",
-            "printedName": "isReachableOnEthernetOrWiFi",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC27isReachableOnEthernetOrWiFiSbvp",
-            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC27isReachableOnEthernetOrWiFiSbvp",
-            "moduleName": "MotionTagSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC27isReachableOnEthernetOrWiFiSbvg",
-                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC27isReachableOnEthernetOrWiFiSbvg",
-                "moduleName": "MotionTagSDK",
-                "isOpen": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "reachabilityQueue",
-            "printedName": "reachabilityQueue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DispatchQueue",
-                "printedName": "Dispatch.DispatchQueue",
-                "usr": "c:objc(cs)OS_dispatch_queue"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC17reachabilityQueueSo17OS_dispatch_queueCvp",
-            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC17reachabilityQueueSo17OS_dispatch_queueCvp",
-            "moduleName": "MotionTagSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DispatchQueue",
-                    "printedName": "Dispatch.DispatchQueue",
-                    "usr": "c:objc(cs)OS_dispatch_queue"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC17reachabilityQueueSo17OS_dispatch_queueCvg",
-                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC17reachabilityQueueSo17OS_dispatch_queueCvg",
-                "moduleName": "MotionTagSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "flags",
-            "printedName": "flags",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SystemConfiguration.SCNetworkReachabilityFlags?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SCNetworkReachabilityFlags",
-                    "printedName": "SystemConfiguration.SCNetworkReachabilityFlags",
-                    "usr": "c:@E@SCNetworkReachabilityFlags"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC5flagsSo09SCNetworkE5FlagsVSgvp",
-            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC5flagsSo09SCNetworkE5FlagsVSgvp",
-            "moduleName": "MotionTagSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "SystemConfiguration.SCNetworkReachabilityFlags?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SCNetworkReachabilityFlags",
-                        "printedName": "SystemConfiguration.SCNetworkReachabilityFlags",
-                        "usr": "c:@E@SCNetworkReachabilityFlags"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC5flagsSo09SCNetworkE5FlagsVSgvg",
-                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC5flagsSo09SCNetworkE5FlagsVSgvg",
-                "moduleName": "MotionTagSDK",
-                "isOpen": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "status",
-            "printedName": "status",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetworkReachabilityStatus",
-                "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
-                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC6statusAC0dE6StatusOvp",
-            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC6statusAC0dE6StatusOvp",
-            "moduleName": "MotionTagSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetworkReachabilityStatus",
-                    "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
-                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC6statusAC0dE6StatusOvg",
-                "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC6statusAC0dE6StatusOvg",
-                "moduleName": "MotionTagSDK",
-                "isOpen": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(host:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "MotionTagSDK.NetworkReachabilityManager?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetworkReachabilityManager",
-                    "printedName": "MotionTagSDK.NetworkReachabilityManager",
-                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC4hostACSgSS_tcfc",
-            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC4hostACSgSS_tcfc",
-            "moduleName": "MotionTagSDK",
-            "declAttributes": [
-              "Convenience",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Convenience"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "MotionTagSDK.NetworkReachabilityManager?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetworkReachabilityManager",
-                    "printedName": "MotionTagSDK.NetworkReachabilityManager",
-                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerCACSgycfc",
-            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerCACSgycfc",
-            "moduleName": "MotionTagSDK",
-            "declAttributes": [
-              "Convenience",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Convenience"
-          },
-          {
-            "kind": "Function",
-            "name": "startListening",
-            "printedName": "startListening(onQueue:onUpdatePerforming:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "DispatchQueue",
-                "printedName": "Dispatch.DispatchQueue",
-                "hasDefaultArg": true,
-                "usr": "c:objc(cs)OS_dispatch_queue"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetworkReachabilityStatus",
-                    "printedName": "MotionTagSDK.NetworkReachabilityManager.NetworkReachabilityStatus",
-                    "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC0dE6StatusO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC14startListening7onQueue0I16UpdatePerformingSbSo17OS_dispatch_queueC_yAC0dE6StatusOYbctF",
-            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC14startListening7onQueue0I16UpdatePerformingSbSo17OS_dispatch_queueC_yAC0dE6StatusOYbctF",
-            "moduleName": "MotionTagSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "DiscardableResult",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "stopListening",
-            "printedName": "stopListening()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC13stopListeningyyF",
-            "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC13stopListeningyyF",
-            "moduleName": "MotionTagSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:12MotionTagSDK26NetworkReachabilityManagerC",
-        "mangledName": "$s12MotionTagSDK26NetworkReachabilityManagerC",
-        "moduleName": "MotionTagSDK",
-        "isOpen": true,
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          }
-        ]
       },
       {
         "kind": "Import",
@@ -1314,16 +301,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
         "declKind": "Import",
@@ -1354,8 +331,8 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "MotionTagSDK",
         "declAttributes": [
@@ -1366,6 +343,80 @@
         "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "MotionTagSDK",
         "declAttributes": [
@@ -1399,6 +450,47 @@
         "declKind": "Import",
         "moduleName": "MotionTagSDK",
         "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BackgroundTasks",
+        "printedName": "BackgroundTasks",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "Preconcurrency",
           "RawDocComment"
         ]
       },
@@ -1447,364 +539,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreMotion",
-        "printedName": "CoreMotion",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreMotion",
-        "printedName": "CoreMotion",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "MotionTagSDK"
       },
       {
@@ -1839,80 +573,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK"
-      },
-      {
-        "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
         "declKind": "Import",
@@ -1935,103 +595,6 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MotionTagSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "MotionTagSDK",
         "declAttributes": [
@@ -2060,8 +623,28 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "MotionTagSDK",
         "declAttributes": [
@@ -2110,10 +693,13 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "MotionTagSDK"
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -2127,8 +713,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "MotionTagSDK",
         "declAttributes": [
@@ -2137,33 +723,197 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "CLLocationManager",
-        "printedName": "CLLocationManager",
-        "declKind": "Class",
-        "usr": "c:objc(cs)CLLocationManager",
-        "moduleName": "CoreLocation",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "CLLocationManager",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "Dynamic"
+        "name": "MotionTagDelegate",
+        "printedName": "MotionTagDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "trackingDidChange",
+            "printedName": "trackingDidChange(isTracking:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MotionTagSDK0aB8DelegateP17trackingDidChange10isTrackingySb_tF",
+            "mangledName": "$s12MotionTagSDK0aB8DelegateP17trackingDidChange10isTrackingySb_tF",
+            "moduleName": "MotionTagSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTagDelegate>",
+            "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTagDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationAuthorizationDidChange",
+            "printedName": "locationAuthorizationDidChange(status:isPrecise:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLAuthorizationStatus",
+                "printedName": "CoreLocation.CLAuthorizationStatus",
+                "usr": "c:@E@CLAuthorizationStatus"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MotionTagSDK0aB8DelegateP30locationAuthorizationDidChange6status9isPreciseySo21CLAuthorizationStatusV_SbtF",
+            "mangledName": "$s12MotionTagSDK0aB8DelegateP30locationAuthorizationDidChange6status9isPreciseySo21CLAuthorizationStatusV_SbtF",
+            "moduleName": "MotionTagSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTagDelegate>",
+            "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTagDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "motionActivityAuthorizationDidChange",
+            "printedName": "motionActivityAuthorizationDidChange(isAuthorized:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MotionTagSDK0aB8DelegateP36motionActivityAuthorizationDidChange12isAuthorizedySb_tF",
+            "mangledName": "$s12MotionTagSDK0aB8DelegateP36motionActivityAuthorizationDidChange12isAuthorizedySb_tF",
+            "moduleName": "MotionTagSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTagDelegate>",
+            "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTagDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didUpdateLocation",
+            "printedName": "didUpdateLocation(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
+                "usr": "c:objc(cs)CLLocation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MotionTagSDK0aB8DelegateP17didUpdateLocationyySo10CLLocationCF",
+            "mangledName": "$s12MotionTagSDK0aB8DelegateP17didUpdateLocationyySo10CLLocationCF",
+            "moduleName": "MotionTagSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTagDelegate>",
+            "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTagDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dataUploadDidComplete",
+            "printedName": "dataUploadDidComplete(from:to:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MotionTagSDK0aB8DelegateP21dataUploadDidComplete4from2to5errory10Foundation4DateV_AJs5Error_pSgtF",
+            "mangledName": "$s12MotionTagSDK0aB8DelegateP21dataUploadDidComplete4from2to5errory10Foundation4DateV_AJs5Error_pSgtF",
+            "moduleName": "MotionTagSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTagDelegate>",
+            "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTagDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
+        "declKind": "Protocol",
+        "usr": "s:12MotionTagSDK0aB8DelegateP",
+        "mangledName": "$s12MotionTagSDK0aB8DelegateP",
+        "moduleName": "MotionTagSDK",
+        "genericSig": "<τ_0_0 : AnyObject, τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : AnyObject, Self : Swift.Sendable>",
+        "declAttributes": [
+          "AccessControl",
+          "Custom"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
           {
             "kind": "Conformance",
             "name": "Escapable",
@@ -2173,76 +923,1197 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "zlib",
+        "printedName": "zlib",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "BackgroundTasks",
+        "printedName": "BackgroundTasks",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MotionTag",
+        "printedName": "MotionTag",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(using:launchOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MotionTagDelegate",
+                "printedName": "any MotionTagSDK.MotionTagDelegate",
+                "usr": "s:12MotionTagSDK0aB8DelegateP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LaunchOptionsKey",
+                        "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                        "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MotionTagSDK0aB0P10initialize5using13launchOptionsyAA0aB8Delegate_p_SDySo019UIApplicationLaunchG3KeyaypGSgtF",
+            "mangledName": "$s12MotionTagSDK0aB0P10initialize5using13launchOptionsyAA0aB8Delegate_p_SDySo019UIApplicationLaunchG3KeyaypGSgtF",
+            "moduleName": "MotionTagSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTag>",
+            "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTag>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "userToken",
+            "printedName": "userToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MotionTagSDK0aB0P9userTokenSSSgvp",
+            "mangledName": "$s12MotionTagSDK0aB0P9userTokenSSSgvp",
+            "moduleName": "MotionTagSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK0aB0P9userTokenSSSgvg",
+                "mangledName": "$s12MotionTagSDK0aB0P9userTokenSSSgvg",
+                "moduleName": "MotionTagSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTag>",
+                "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTag>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK0aB0P9userTokenSSSgvs",
+                "mangledName": "$s12MotionTagSDK0aB0P9userTokenSSSgvs",
+                "moduleName": "MotionTagSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTag>",
+                "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTag>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK0aB0P9userTokenSSSgvM",
+                "mangledName": "$s12MotionTagSDK0aB0P9userTokenSSSgvM",
+                "moduleName": "MotionTagSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTag>",
+                "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTag>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MotionTagSDK0aB0P5startyyF",
+            "mangledName": "$s12MotionTagSDK0aB0P5startyyF",
+            "moduleName": "MotionTagSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTag>",
+            "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTag>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MotionTagSDK0aB0P4stopyyF",
+            "mangledName": "$s12MotionTagSDK0aB0P4stopyyF",
+            "moduleName": "MotionTagSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTag>",
+            "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTag>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isTrackingActive",
+            "printedName": "isTrackingActive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MotionTagSDK0aB0P16isTrackingActiveSbvp",
+            "mangledName": "$s12MotionTagSDK0aB0P16isTrackingActiveSbvp",
+            "moduleName": "MotionTagSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK0aB0P16isTrackingActiveSbvg",
+                "mangledName": "$s12MotionTagSDK0aB0P16isTrackingActiveSbvg",
+                "moduleName": "MotionTagSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTag>",
+                "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTag>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wifiOnlyDataTransfer",
+            "printedName": "wifiOnlyDataTransfer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MotionTagSDK0aB0P20wifiOnlyDataTransferSbvp",
+            "mangledName": "$s12MotionTagSDK0aB0P20wifiOnlyDataTransferSbvp",
+            "moduleName": "MotionTagSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK0aB0P20wifiOnlyDataTransferSbvg",
+                "mangledName": "$s12MotionTagSDK0aB0P20wifiOnlyDataTransferSbvg",
+                "moduleName": "MotionTagSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTag>",
+                "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTag>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK0aB0P20wifiOnlyDataTransferSbvs",
+                "mangledName": "$s12MotionTagSDK0aB0P20wifiOnlyDataTransferSbvs",
+                "moduleName": "MotionTagSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTag>",
+                "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTag>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK0aB0P20wifiOnlyDataTransferSbvM",
+                "mangledName": "$s12MotionTagSDK0aB0P20wifiOnlyDataTransferSbvM",
+                "moduleName": "MotionTagSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTag>",
+                "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTag>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "processBackgroundSessionEvents",
+            "printedName": "processBackgroundSessionEvents(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MotionTagSDK0aB0P30processBackgroundSessionEvents4withySS_tYaF",
+            "mangledName": "$s12MotionTagSDK0aB0P30processBackgroundSessionEvents4withySS_tYaF",
+            "moduleName": "MotionTagSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTag>",
+            "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTag>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hasRequiredPermissions",
+            "printedName": "hasRequiredPermissions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MotionTagSDK0aB0P22hasRequiredPermissionsSbvp",
+            "mangledName": "$s12MotionTagSDK0aB0P22hasRequiredPermissionsSbvp",
+            "moduleName": "MotionTagSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK0aB0P22hasRequiredPermissionsSbvg",
+                "mangledName": "$s12MotionTagSDK0aB0P22hasRequiredPermissionsSbvg",
+                "moduleName": "MotionTagSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTag>",
+                "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTag>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MotionTagSDK0aB0P7versionSSvp",
+            "mangledName": "$s12MotionTagSDK0aB0P7versionSSvp",
+            "moduleName": "MotionTagSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK0aB0P7versionSSvg",
+                "mangledName": "$s12MotionTagSDK0aB0P7versionSSvg",
+                "moduleName": "MotionTagSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTag>",
+                "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTag>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "clearData",
+            "printedName": "clearData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MotionTagSDK0aB0P9clearDataSiyF",
+            "mangledName": "$s12MotionTagSDK0aB0P9clearDataSiyF",
+            "moduleName": "MotionTagSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTag>",
+            "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTag>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12MotionTagSDK0aB0P",
+        "mangledName": "$s12MotionTagSDK0aB0P",
+        "moduleName": "MotionTagSDK",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
       {
         "kind": "TypeDecl",
-        "name": "CMMotionManager",
-        "printedName": "CMMotionManager",
+        "name": "MotionTagCore",
+        "printedName": "MotionTagCore",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MotionTag",
+                "printedName": "any MotionTagSDK.MotionTag",
+                "usr": "s:12MotionTagSDK0aB0P"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MotionTagSDK0aB4CoreC14sharedInstanceAA0aB0_pvpZ",
+            "mangledName": "$s12MotionTagSDK0aB4CoreC14sharedInstanceAA0aB0_pvpZ",
+            "moduleName": "MotionTagSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MotionTag",
+                    "printedName": "any MotionTagSDK.MotionTag",
+                    "usr": "s:12MotionTagSDK0aB0P"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK0aB4CoreC14sharedInstanceAA0aB0_pvgZ",
+                "mangledName": "$s12MotionTagSDK0aB4CoreC14sharedInstanceAA0aB0_pvgZ",
+                "moduleName": "MotionTagSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
         "declKind": "Class",
-        "usr": "c:objc(cs)CMMotionManager",
-        "moduleName": "CoreMotion",
-        "isOpen": true,
-        "intro_iOS": "4.0",
-        "objc_name": "CMMotionManager",
+        "usr": "s:12MotionTagSDK0aB4CoreC",
+        "mangledName": "$s12MotionTagSDK0aB4CoreC",
+        "moduleName": "MotionTagSDK",
         "declAttributes": [
-          "Available",
-          "ObjC",
-          "Dynamic"
+          "Final",
+          "AccessControl",
+          "RawDocComment"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
+        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -2257,27 +2128,331 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSession",
+        "printedName": "URLSession",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSURLSession",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "intro_iOS": "7.0",
+        "objc_name": "NSURLSession",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -2288,10 +2463,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -2302,10 +2491,38 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -2333,38 +2550,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -2375,10 +2564,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -2389,10 +2592,198 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CLLocationManager",
+        "printedName": "CLLocationManager",
+        "declKind": "Class",
+        "usr": "c:objc(cs)CLLocationManager",
+        "moduleName": "CoreLocation",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "CLLocationManager",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CMMotionManager",
+        "printedName": "CMMotionManager",
+        "declKind": "Class",
+        "usr": "c:objc(cs)CMMotionManager",
+        "moduleName": "CoreMotion",
+        "isOpen": true,
+        "intro_iOS": "4.0",
+        "objc_name": "CMMotionManager",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -2421,45 +2812,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -2470,17 +2826,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -2491,6 +2847,41 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SendableMetatype",
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
@@ -2498,17 +2889,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_HasCustomAnyHashableRepresentation",
-            "printedName": "_HasCustomAnyHashableRepresentation",
-            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
-            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
-          },
-          {
-            "kind": "Conformance",
             "name": "_CustomPlaygroundQuickLookable",
             "printedName": "_CustomPlaygroundQuickLookable",
             "usr": "s:s30_CustomPlaygroundQuickLookableP",
             "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
           }
         ]
       },
@@ -2539,38 +2930,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -2581,17 +2944,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -2602,10 +2972,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       }
@@ -2630,21 +3021,21 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/BeaconScan.swift",
       "kind": "StringLiteral",
-      "offset": 338,
+      "offset": 344,
       "length": 12,
       "value": "\"BeaconScan\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/BeaconScan.swift",
       "kind": "StringLiteral",
-      "offset": 834,
+      "offset": 840,
       "length": 15,
       "value": "\"tracked_at_ms\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/BeaconScan.swift",
       "kind": "StringLiteral",
-      "offset": 873,
+      "offset": 879,
       "length": 9,
       "value": "\"beacons\""
     },
@@ -2698,156 +3089,128 @@
       "value": "\"battery_status\""
     },
     {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/TrackerRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 1595,
-      "length": 57,
-      "value": "\"eventRepository is not castable to EventInsertableSwift\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/TrackerRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 8799,
-      "length": 19,
-      "value": "\"api.motion-tag.de\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/TrackerRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 8850,
-      "length": 45,
-      "value": "\"Cannot construct NetworkReachabilityManager\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Categories\/NSDate+MOT.swift",
-      "kind": "IntegerLiteral",
-      "offset": 413,
-      "length": 4,
-      "value": "1000"
-    },
-    {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 991,
+      "offset": 960,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 1002,
+      "offset": 971,
       "length": 3,
       "value": "\"+\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 1049,
+      "offset": 1018,
       "length": 3,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 1060,
+      "offset": 1029,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1132,
+      "offset": 1101,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1137,
+      "offset": 1106,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1142,
+      "offset": 1111,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 1154,
+      "offset": 1123,
       "length": 3,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1171,
+      "offset": 1140,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "Array",
-      "offset": 1539,
+      "offset": 1508,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 1749,
+      "offset": 1718,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1782,
+      "offset": 1751,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/AccessTokenDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1875,
+      "offset": 1844,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/UserDefaults\/UserDefaultsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1123,
+      "offset": 1099,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/UserDefaults\/UserDefaultsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2030,
+      "offset": 2023,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/UserDefaults\/UserDefaultsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2526,
+      "offset": 2519,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/UserDefaults\/UserDefaultsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2864,
+      "offset": 2857,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/UserDefaults\/UserDefaultsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2990,
+      "offset": 3111,
       "length": 5,
       "value": "false"
     },
@@ -2887,30 +3250,23 @@
       "value": "\"significant location\""
     },
     {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/PreWakeUp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1691,
-      "length": 15,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/PreWakeUp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1716,
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/TrackerRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 8198,
       "length": 19,
-      "value": "2"
+      "value": "\"api.motion-tag.de\""
     },
     {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/PreWakeUp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1745,
-      "length": 7,
-      "value": "3"
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/TrackerRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 8249,
+      "length": 45,
+      "value": "\"Cannot construct NetworkReachabilityManager\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/ThirdParty\/Reachability\/Reachability.swift",
       "kind": "StringLiteral",
-      "offset": 4142,
+      "offset": 4168,
       "length": 33,
       "value": "\"org.motiontag.reachabilityQueue\""
     },
@@ -2971,186 +3327,88 @@
       "value": "\"Log\""
     },
     {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Debug.swift",
-      "kind": "IntegerLiteral",
-      "offset": 837,
-      "length": 16,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Debug.swift",
-      "kind": "IntegerLiteral",
-      "offset": 863,
-      "length": 21,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Debug.swift",
-      "kind": "IntegerLiteral",
-      "offset": 894,
-      "length": 14,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Debug.swift",
-      "kind": "IntegerLiteral",
-      "offset": 918,
-      "length": 13,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Debug.swift",
-      "kind": "IntegerLiteral",
-      "offset": 941,
-      "length": 3,
-      "value": "5"
-    },
-    {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Reachability\/ReachabilityTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 948,
+      "offset": 943,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Reachability\/ReachabilityTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 1113,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Reachability\/ReachabilityTracker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1909,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Reachability\/ReachabilityTracker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2010,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Reachability\/ReachabilityTracker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2016,
+      "offset": 1108,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/ToggleTracking.swift",
       "kind": "StringLiteral",
-      "offset": 219,
+      "offset": 228,
       "length": 16,
       "value": "\"ToggleTracking\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/ToggleTracking.swift",
       "kind": "StringLiteral",
-      "offset": 392,
+      "offset": 401,
       "length": 15,
       "value": "\"tracked_at_ms\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/ToggleTracking.swift",
       "kind": "StringLiteral",
-      "offset": 429,
+      "offset": 438,
       "length": 23,
       "value": "\"toggle_tracking_state\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/ToggleTracking.swift",
       "kind": "StringLiteral",
-      "offset": 475,
+      "offset": 484,
       "length": 24,
       "value": "\"toggle_tracking_reason\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/ToggleTracking.swift",
       "kind": "StringLiteral",
-      "offset": 588,
+      "offset": 595,
       "length": 7,
       "value": "\"FORCE\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/ToggleTracking.swift",
       "kind": "StringLiteral",
-      "offset": 627,
+      "offset": 634,
       "length": 18,
       "value": "\"LOCATION_SERVICE\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/ToggleTracking.swift",
       "kind": "StringLiteral",
-      "offset": 676,
+      "offset": 683,
       "length": 17,
       "value": "\"DENIED_LOCATION\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/ToggleTracking.swift",
       "kind": "StringLiteral",
-      "offset": 730,
+      "offset": 737,
       "length": 23,
       "value": "\"INSUFFICIENT_LOCATION\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/ToggleTracking.swift",
       "kind": "StringLiteral",
-      "offset": 787,
+      "offset": 794,
       "length": 20,
       "value": "\"IMPRECISE_LOCATION\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/ToggleTracking.swift",
       "kind": "StringLiteral",
-      "offset": 833,
+      "offset": 840,
       "length": 12,
       "value": "\"APP_UPDATE\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/ToggleTracking.swift",
-      "kind": "IntegerLiteral",
-      "offset": 972,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/ToggleTracking.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1001,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/ToggleTracking.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1029,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/ToggleTracking.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1063,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/ToggleTracking.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1094,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/ToggleTracking.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1117,
-      "length": 1,
-      "value": "5"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/IBeacon.swift",
@@ -3203,225 +3461,372 @@
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 29,
+      "value": "\"com.motion-tag.MotionTagSDK\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 352,
+      "offset": 415,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 392,
+      "offset": 455,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 480,
+      "offset": 547,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 524,
+      "offset": 591,
       "length": 3,
       "value": "2.6"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 530,
+      "offset": 597,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 575,
+      "offset": 642,
       "length": 9,
       "value": "\"regular\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 660,
+      "offset": 731,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 664,
+      "offset": 735,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 709,
+      "offset": 780,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 714,
+      "offset": 785,
       "length": 6,
       "value": "1000.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 793,
+      "offset": 868,
       "length": 5,
       "value": "182.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 847,
+      "offset": 922,
       "length": 4,
       "value": "1.32"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 897,
+      "offset": 972,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 990,
+      "offset": 1069,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 997,
+      "offset": 1076,
       "length": 5,
       "value": "600.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1038,
+      "offset": 1117,
       "length": 5,
       "value": "150.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1137,
-      "length": 40,
-      "value": "\"kMOTNetworkReachableChangeNotification\""
+      "kind": "IntegerLiteral",
+      "offset": 1217,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1221,
+      "length": 2,
+      "value": "60"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1267,
+      "offset": 1285,
+      "length": 5,
+      "value": "900.0"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 1384,
       "length": 4,
       "value": "28.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1329,
+      "offset": 1446,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1391,
+      "offset": 1508,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1463,
+      "offset": 1580,
       "length": 4,
       "value": "63.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1552,
+      "offset": 1673,
       "length": 38,
       "value": "\"AEA3E301-4BBC-4ECF-AD17-2573922A5F4F\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1652,
+      "offset": 1782,
+      "length": 38,
+      "value": "\"2686F39C-BADA-4658-854A-A62E7E5E8B8D\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1882,
       "length": 38,
       "value": "\"461959C9-9F74-47C5-8C55-2471B510948A\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1990,
+      "length": 38,
+      "value": "\"23A01AF0-232A-4518-9C0E-323FB773F5EF\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1910,
+      "offset": 2521,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1966,
+      "offset": 2577,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 2030,
+      "offset": 2641,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 2037,
+      "offset": 2648,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2721,
+      "length": 29,
+      "value": "\"forced speedUp on app start\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 2157,
+      "offset": 2807,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 2903,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2164,
+      "offset": 2910,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2293,
+      "offset": 3010,
       "length": 23,
       "value": "\"http:\/\/localhost:8080\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2319,
+      "offset": 3036,
       "length": 27,
       "value": "\"https:\/\/api.motion-tag.de\""
     },
     {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3104,
+      "length": 20,
+      "value": "\"\/api\/event_batches\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3173,
+      "length": 5,
+      "value": "20000"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3241,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3277,
+      "length": 29,
+      "value": "\"com.motion-tag.error.server\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3356,
+      "length": 53,
+      "value": "\"com.motion-tag.motionTagBackgroundSessionIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3446,
+      "length": 15,
+      "value": "\"timestampFrom\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3496,
+      "length": 11,
+      "value": "\"timestamp\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3555,
+      "length": 30,
+      "value": "\"MotionTagForegroundBatchPath\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3627,
+      "length": 29,
+      "value": "\"MotionTagSDKBackgroundTasks\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3704,
+      "length": 26,
+      "value": "\"failedEventsBatch.nsdata\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3815,
+      "length": 34,
+      "value": "\"com.motiontag.sdk.backgroundtask\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3899,
+      "length": 37,
+      "value": "\"com.motiontag.sdk.backgroundrefresh\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4012,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4017,
+      "length": 2,
+      "value": "60"
+    },
+    {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Debug\/DebugEventsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 608,
+      "offset": 345,
       "length": 5,
       "value": "false"
     },
@@ -3496,6 +3901,13 @@
       "value": "\"User-Activated-Tracking-Once\""
     },
     {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/UserDefaults\/UserDefaultsKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 876,
+      "length": 29,
+      "value": "\"MOT_DEEP_SLEEP_SCHEDULED_AT\""
+    },
+    {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Geofence\/RegionCalculator.swift",
       "kind": "StringLiteral",
       "offset": 338,
@@ -3519,77 +3931,56 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Connectivity.swift",
       "kind": "StringLiteral",
-      "offset": 163,
+      "offset": 190,
       "length": 14,
       "value": "\"Connectivity\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Connectivity.swift",
       "kind": "StringLiteral",
-      "offset": 314,
+      "offset": 341,
       "length": 15,
       "value": "\"tracked_at_ms\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Connectivity.swift",
       "kind": "StringLiteral",
-      "offset": 439,
+      "offset": 441,
       "length": 8,
       "value": "\"MOBILE\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Connectivity.swift",
       "kind": "StringLiteral",
-      "offset": 476,
+      "offset": 478,
       "length": 14,
       "value": "\"DISCONNECTED\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Connectivity.swift",
       "kind": "StringLiteral",
-      "offset": 512,
+      "offset": 514,
       "length": 7,
       "value": "\"OTHER\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Connectivity.swift",
       "kind": "StringLiteral",
-      "offset": 540,
+      "offset": 542,
       "length": 6,
       "value": "\"WIFI\""
     },
     {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Connectivity.swift",
-      "kind": "IntegerLiteral",
-      "offset": 649,
-      "length": 12,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Connectivity.swift",
-      "kind": "IntegerLiteral",
-      "offset": 671,
-      "length": 5,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/Connectivity.swift",
-      "kind": "IntegerLiteral",
-      "offset": 686,
-      "length": 4,
-      "value": "3"
-    },
-    {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconRanger.swift",
       "kind": "BooleanLiteral",
-      "offset": 1057,
+      "offset": 1052,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconRanger.swift",
       "kind": "IntegerLiteral",
-      "offset": 1178,
+      "offset": 1173,
       "length": 1,
       "value": "0"
     },
@@ -3613,13 +4004,6 @@
       "offset": 1342,
       "length": 13,
       "value": "\"no movement\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/PreSleep.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1517,
-      "length": 7,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Events\/DeepSleep.swift",
@@ -3771,37 +4155,44 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/TokenTransmissionGuard.swift",
       "kind": "BooleanLiteral",
-      "offset": 1552,
+      "offset": 1450,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Operations\/OperationsController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 525,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Operations\/OperationsController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 589,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 13367,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 13539,
-      "length": 38,
-      "value": "\"Failed to fetch BaseEvents: \""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 13576,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14459,
+      "offset": 14212,
       "length": 2,
       "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Extensions\/DataGzipExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 234,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Extensions\/DataGzipExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 239,
+      "length": 2,
+      "value": "14"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Database\/CoreData\/CoreDataManager.swift",
@@ -3813,7 +4204,7 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/CredentialsManager.swift",
       "kind": "StringLiteral",
-      "offset": 338,
+      "offset": 314,
       "length": 43,
       "value": "\"Attempting to insert nil item in Keychain\""
     },
@@ -3848,44 +4239,86 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/SDKSettings\/SDKSettingsTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 435,
+      "offset": 446,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventPayload.swift",
-      "kind": "IntegerLiteral",
-      "offset": 661,
-      "length": 2,
-      "value": "31"
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/GeneralLocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1624,
+      "length": 8,
+      "value": "\"paused\""
     },
     {
-      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventPayload.swift",
-      "kind": "IntegerLiteral",
-      "offset": 716,
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/GeneralLocationManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1459,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/GeneralLocationManager.swift",
+      "kind": "Array",
+      "offset": 1697,
       "length": 2,
-      "value": "31"
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/GeneralLocationManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2469,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/GeneralLocationManager.swift",
+      "kind": "Array",
+      "offset": 2535,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Battery\/BatteryMonitoringManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 433,
+      "offset": 425,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconTracker.swift",
       "kind": "IntegerLiteral",
-      "offset": 507,
+      "offset": 502,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/Managers\/Beacon\/BeaconTracker.swift",
       "kind": "IntegerLiteral",
-      "offset": 521,
+      "offset": 516,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/SDKStates.swift",
+      "kind": "IntegerLiteral",
+      "offset": 204,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/SDKStates.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/SDKStates.swift",
+      "kind": "IntegerLiteral",
+      "offset": 249,
+      "length": 2,
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/Protocols\/KeychainItems.swift",
@@ -3963,6 +4396,34 @@
       "offset": 287,
       "length": 4,
       "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/GeneralLocationManager+SleepWakeUp.swift",
+      "kind": "StringLiteral",
+      "offset": 1539,
+      "length": 20,
+      "value": "\"MOTSDKNotification\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/GeneralLocationManager+SleepWakeUp.swift",
+      "kind": "StringLiteral",
+      "offset": 1607,
+      "length": 24,
+      "value": "\"MOTGeneralNotification\""
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/API\/APIClient.swift",
+      "kind": "Dictionary",
+      "offset": 1134,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/API\/APIClient.swift",
+      "kind": "Dictionary",
+      "offset": 15218,
+      "length": 3,
+      "value": "[]"
     }
   ]
 }
