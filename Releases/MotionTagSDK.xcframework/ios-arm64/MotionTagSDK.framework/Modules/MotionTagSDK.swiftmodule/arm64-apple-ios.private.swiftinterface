@@ -23,8 +23,16 @@ import zlib
   @_Concurrency.MainActor func didUpdateLocation(_ location: _LocationEssentials.CLLocation)
   @_Concurrency.MainActor func dataUploadDidComplete(from startDate: Foundation.Date, to endDate: Foundation.Date, error: (any Swift.Error)?)
 }
+public enum MotionTagInitializationError : Swift.Error, Foundation.LocalizedError {
+  case persistentStore(Swift.String)
+  case keychain(status: Swift.Int32)
+  case invalidHostConfiguration(Swift.String)
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
 @_Concurrency.MainActor public protocol MotionTag : Swift.Sendable {
-  @_Concurrency.MainActor func initialize(using delegate: any MotionTagSDK.MotionTagDelegate, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
+  @_Concurrency.MainActor func initialize(using delegate: any MotionTagSDK.MotionTagDelegate, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?) throws
   @_Concurrency.MainActor var userToken: Swift.String? { get set }
   @_Concurrency.MainActor func start()
   @_Concurrency.MainActor func stop()

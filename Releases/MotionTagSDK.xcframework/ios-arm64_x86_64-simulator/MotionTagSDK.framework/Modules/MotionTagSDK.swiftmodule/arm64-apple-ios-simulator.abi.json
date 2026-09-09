@@ -1488,6 +1488,277 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "MotionTagInitializationError",
+        "printedName": "MotionTagInitializationError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "persistentStore",
+            "printedName": "persistentStore",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MotionTagSDK.MotionTagInitializationError.Type) -> (Swift.String) -> MotionTagSDK.MotionTagInitializationError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> MotionTagSDK.MotionTagInitializationError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MotionTagInitializationError",
+                        "printedName": "MotionTagSDK.MotionTagInitializationError",
+                        "usr": "s:12MotionTagSDK0aB19InitializationErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MotionTagSDK.MotionTagInitializationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MotionTagInitializationError",
+                        "printedName": "MotionTagSDK.MotionTagInitializationError",
+                        "usr": "s:12MotionTagSDK0aB19InitializationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MotionTagSDK0aB19InitializationErrorO15persistentStoreyACSScACmF",
+            "mangledName": "$s12MotionTagSDK0aB19InitializationErrorO15persistentStoreyACSScACmF",
+            "moduleName": "MotionTagSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "keychain",
+            "printedName": "keychain",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MotionTagSDK.MotionTagInitializationError.Type) -> (Swift.Int32) -> MotionTagSDK.MotionTagInitializationError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int32) -> MotionTagSDK.MotionTagInitializationError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MotionTagInitializationError",
+                        "printedName": "MotionTagSDK.MotionTagInitializationError",
+                        "usr": "s:12MotionTagSDK0aB19InitializationErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(status: Swift.Int32)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int32",
+                            "printedName": "Swift.Int32",
+                            "usr": "s:s5Int32V"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MotionTagSDK.MotionTagInitializationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MotionTagInitializationError",
+                        "printedName": "MotionTagSDK.MotionTagInitializationError",
+                        "usr": "s:12MotionTagSDK0aB19InitializationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MotionTagSDK0aB19InitializationErrorO8keychainyACs5Int32V_tcACmF",
+            "mangledName": "$s12MotionTagSDK0aB19InitializationErrorO8keychainyACs5Int32V_tcACmF",
+            "moduleName": "MotionTagSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidHostConfiguration",
+            "printedName": "invalidHostConfiguration",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MotionTagSDK.MotionTagInitializationError.Type) -> (Swift.String) -> MotionTagSDK.MotionTagInitializationError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> MotionTagSDK.MotionTagInitializationError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MotionTagInitializationError",
+                        "printedName": "MotionTagSDK.MotionTagInitializationError",
+                        "usr": "s:12MotionTagSDK0aB19InitializationErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MotionTagSDK.MotionTagInitializationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MotionTagInitializationError",
+                        "printedName": "MotionTagSDK.MotionTagInitializationError",
+                        "usr": "s:12MotionTagSDK0aB19InitializationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MotionTagSDK0aB19InitializationErrorO24invalidHostConfigurationyACSScACmF",
+            "mangledName": "$s12MotionTagSDK0aB19InitializationErrorO24invalidHostConfigurationyACSScACmF",
+            "moduleName": "MotionTagSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MotionTagSDK0aB19InitializationErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s12MotionTagSDK0aB19InitializationErrorO16errorDescriptionSSSgvp",
+            "moduleName": "MotionTagSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MotionTagSDK0aB19InitializationErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s12MotionTagSDK0aB19InitializationErrorO16errorDescriptionSSSgvg",
+                "moduleName": "MotionTagSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12MotionTagSDK0aB19InitializationErrorO",
+        "mangledName": "$s12MotionTagSDK0aB19InitializationErrorO",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "MotionTag",
         "printedName": "MotionTag",
         "children": [
@@ -1536,8 +1807,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12MotionTagSDK0aB0P10initialize5using13launchOptionsyAA0aB8Delegate_p_SDySo019UIApplicationLaunchG3KeyaypGSgtF",
-            "mangledName": "$s12MotionTagSDK0aB0P10initialize5using13launchOptionsyAA0aB8Delegate_p_SDySo019UIApplicationLaunchG3KeyaypGSgtF",
+            "usr": "s:12MotionTagSDK0aB0P10initialize5using13launchOptionsyAA0aB8Delegate_p_SDySo019UIApplicationLaunchG3KeyaypGSgtKF",
+            "mangledName": "$s12MotionTagSDK0aB0P10initialize5using13launchOptionsyAA0aB8Delegate_p_SDySo019UIApplicationLaunchG3KeyaypGSgtKF",
             "moduleName": "MotionTagSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : MotionTagSDK.MotionTag>",
             "sugared_genericSig": "<Self where Self : MotionTagSDK.MotionTag>",
@@ -1546,6 +1817,7 @@
               "Custom",
               "RawDocComment"
             ],
+            "throwing": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2423,6 +2695,16 @@
         "moduleName": "MotionTagSDK"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MotionTagSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "URLSession",
         "printedName": "URLSession",
@@ -3252,14 +3534,14 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/TrackerRepository.swift",
       "kind": "StringLiteral",
-      "offset": 8198,
+      "offset": 7643,
       "length": 19,
       "value": "\"api.motion-tag.de\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/TrackerRepository.swift",
       "kind": "StringLiteral",
-      "offset": 8249,
+      "offset": 7694,
       "length": 45,
       "value": "\"Cannot construct NetworkReachabilityManager\""
     },
