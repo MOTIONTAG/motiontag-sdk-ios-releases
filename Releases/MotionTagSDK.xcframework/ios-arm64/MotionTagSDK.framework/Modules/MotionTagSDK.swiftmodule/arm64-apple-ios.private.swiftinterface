@@ -23,6 +23,9 @@ import zlib
   @_Concurrency.MainActor func didUpdateLocation(_ location: _LocationEssentials.CLLocation)
   @_Concurrency.MainActor func dataUploadDidComplete(from startDate: Foundation.Date, to endDate: Foundation.Date, error: (any Swift.Error)?)
 }
+extension UIKit.UIApplication.LaunchOptionsKey {
+  @_spi(Internal) public static let beaconUUIDs: UIKit.UIApplication.LaunchOptionsKey
+}
 public enum MotionTagInitializationError : Swift.Error, Foundation.LocalizedError {
   case persistentStore(Swift.String)
   case keychain(status: Swift.Int32)
