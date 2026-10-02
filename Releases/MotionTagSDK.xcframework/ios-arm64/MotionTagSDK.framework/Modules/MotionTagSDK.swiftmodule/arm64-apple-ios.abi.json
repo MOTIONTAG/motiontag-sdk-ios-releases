@@ -4596,7 +4596,7 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Keychain\/TokenTransmissionGuard.swift",
       "kind": "BooleanLiteral",
-      "offset": 1450,
+      "offset": 1602,
       "length": 5,
       "value": "false"
     },
@@ -4617,7 +4617,7 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Storage\/Repositories\/EventRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 14212,
+      "offset": 14871,
       "length": 2,
       "value": "-1"
     },
@@ -4687,42 +4687,42 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/GeneralLocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1624,
+      "offset": 1565,
       "length": 8,
       "value": "\"paused\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/GeneralLocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1459,
+      "offset": 1400,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/GeneralLocationManager.swift",
       "kind": "Array",
-      "offset": 1697,
+      "offset": 1638,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/GeneralLocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2469,
+      "offset": 2615,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/GeneralLocationManager.swift",
       "kind": "Array",
-      "offset": 2535,
+      "offset": 2681,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Location\/General\/GeneralLocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 9635,
+      "offset": 9781,
       "length": 31,
       "value": "\"com.motiontag.sdk.beaconUUIDs\""
     },
