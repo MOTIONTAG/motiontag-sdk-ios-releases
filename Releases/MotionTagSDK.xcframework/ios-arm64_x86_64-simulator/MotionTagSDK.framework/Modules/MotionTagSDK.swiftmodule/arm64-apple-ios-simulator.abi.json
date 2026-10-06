@@ -4142,125 +4142,125 @@
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 2459,
-      "length": 4,
-      "value": "10.0"
+      "length": 3,
+      "value": "2.0"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2466,
+      "offset": 2465,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2566,
+      "offset": 2565,
       "length": 23,
       "value": "\"http:\/\/localhost:8080\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2592,
+      "offset": 2591,
       "length": 27,
       "value": "\"https:\/\/api.motion-tag.de\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2660,
+      "offset": 2659,
       "length": 20,
       "value": "\"\/api\/event_batches\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2729,
+      "offset": 2728,
       "length": 5,
       "value": "20000"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2797,
+      "offset": 2796,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2833,
+      "offset": 2832,
       "length": 29,
       "value": "\"com.motion-tag.error.server\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2912,
+      "offset": 2911,
       "length": 53,
       "value": "\"com.motion-tag.motionTagBackgroundSessionIdentifier\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3002,
+      "offset": 3001,
       "length": 15,
       "value": "\"timestampFrom\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3052,
+      "offset": 3051,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3111,
+      "offset": 3110,
       "length": 30,
       "value": "\"MotionTagForegroundBatchPath\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3183,
+      "offset": 3182,
       "length": 29,
       "value": "\"MotionTagSDKBackgroundTasks\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3260,
+      "offset": 3259,
       "length": 26,
       "value": "\"failedEventsBatch.nsdata\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3371,
+      "offset": 3370,
       "length": 34,
       "value": "\"com.motiontag.sdk.backgroundtask\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3455,
+      "offset": 3454,
       "length": 37,
       "value": "\"com.motiontag.sdk.backgroundrefresh\""
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 3568,
+      "offset": 3567,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 3573,
+      "offset": 3572,
       "length": 2,
       "value": "60"
     },
@@ -4603,14 +4603,28 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Operations\/OperationsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 525,
+      "offset": 803,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Operations\/OperationsController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 837,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Operations\/OperationsController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2224,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/Operations\/OperationsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 589,
+      "offset": 2288,
       "length": 5,
       "value": "false"
     },
@@ -4869,7 +4883,7 @@
     {
       "filePath": "\/Users\/kian\/projects\/ios\/motiontag-sdk-ios\/MotionTagSDK\/API\/APIClient.swift",
       "kind": "Dictionary",
-      "offset": 15218,
+      "offset": 15275,
       "length": 3,
       "value": "[]"
     }
