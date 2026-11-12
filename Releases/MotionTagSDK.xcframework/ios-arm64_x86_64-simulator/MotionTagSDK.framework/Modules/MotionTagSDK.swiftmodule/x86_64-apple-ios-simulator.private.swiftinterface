@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.3 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -O -enable-experimental-feature DebugDescriptionMacro -module-name MotionTagSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
+// swift-compiler-version: Apple Swift version 6.4.2 (swiftlang-6.4.2.1.9 clang-2100.4.1.1)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -language-mode 6 -O -enable-experimental-feature DebugDescriptionMacro -module-name MotionTagSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4.2
 @preconcurrency import BackgroundTasks
 @preconcurrency import CoreData
 import CoreFoundation
@@ -16,38 +16,38 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import zlib
-@_Concurrency.MainActor public protocol MotionTagDelegate : AnyObject, Swift.Sendable {
-  @_Concurrency.MainActor func trackingDidChange(isTracking: Swift.Bool)
-  @_Concurrency.MainActor func locationAuthorizationDidChange(status: CoreLocation.CLAuthorizationStatus, isPrecise: Swift.Bool)
-  @_Concurrency.MainActor func motionActivityAuthorizationDidChange(isAuthorized: Swift.Bool)
-  @_Concurrency.MainActor func didUpdateLocation(_ location: _LocationEssentials.CLLocation)
-  @_Concurrency.MainActor func dataUploadDidComplete(from startDate: Foundation.Date, to endDate: Foundation.Date, error: (any Swift.Error)?)
+@_Concurrency::MainActor public protocol MotionTagDelegate : AnyObject, Swift::Sendable {
+  @_Concurrency::MainActor func trackingDidChange(isTracking: Swift::Bool)
+  @_Concurrency::MainActor func locationAuthorizationDidChange(status: CoreLocation::CLAuthorizationStatus, isPrecise: Swift::Bool)
+  @_Concurrency::MainActor func motionActivityAuthorizationDidChange(isAuthorized: Swift::Bool)
+  @_Concurrency::MainActor func didUpdateLocation(_ location: _LocationEssentials::CLLocation)
+  @_Concurrency::MainActor func dataUploadDidComplete(from startDate: Foundation::Date, to endDate: Foundation::Date, error: (any Swift::Error)?)
 }
-extension UIKit.UIApplication.LaunchOptionsKey {
-  @_spi(Internal) public static let beaconUUIDs: UIKit.UIApplication.LaunchOptionsKey
+extension UIKit::UIApplication.UIKit::LaunchOptionsKey {
+  @_spi(Internal) public static let beaconUUIDs: UIKit::UIApplication.UIKit::LaunchOptionsKey
 }
-public enum MotionTagInitializationError : Swift.Error, Foundation.LocalizedError {
-  case persistentStore(Swift.String)
-  case keychain(status: Swift.Int32)
-  case invalidHostConfiguration(Swift.String)
-  public var errorDescription: Swift.String? {
+public enum MotionTagInitializationError : Swift::Error, Foundation::LocalizedError {
+  case persistentStore(Swift::String)
+  case keychain(status: Swift::Int32)
+  case invalidHostConfiguration(Swift::String)
+  public var errorDescription: Swift::String? {
     get
   }
 }
-@_Concurrency.MainActor public protocol MotionTag : Swift.Sendable {
-  @_Concurrency.MainActor func initialize(using delegate: any MotionTagSDK.MotionTagDelegate, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?) throws
-  @_Concurrency.MainActor var userToken: Swift.String? { get set }
-  @_Concurrency.MainActor func start()
-  @_Concurrency.MainActor func stop()
-  @_Concurrency.MainActor var isTrackingActive: Swift.Bool { get }
-  @_Concurrency.MainActor var wifiOnlyDataTransfer: Swift.Bool { get set }
-  @_Concurrency.MainActor func processBackgroundSessionEvents(with identifier: Swift.String) async
-  @_Concurrency.MainActor var hasRequiredPermissions: Swift.Bool { get }
-  @_Concurrency.MainActor var version: Swift.String { get }
-  @_Concurrency.MainActor func clearData() -> Swift.Int
+@_Concurrency::MainActor public protocol MotionTag : Swift::Sendable {
+  @_Concurrency::MainActor func initialize(using delegate: any MotionTagSDK::MotionTagDelegate, launchOptions: [UIKit::UIApplication.UIKit::LaunchOptionsKey : Any]?) throws
+  @_Concurrency::MainActor var userToken: Swift::String? { get set }
+  @_Concurrency::MainActor func start()
+  @_Concurrency::MainActor func stop()
+  @_Concurrency::MainActor var isTrackingActive: Swift::Bool { get }
+  @_Concurrency::MainActor var wifiOnlyDataTransfer: Swift::Bool { get set }
+  @_Concurrency::MainActor func processBackgroundSessionEvents(with identifier: Swift::String) async
+  @_Concurrency::MainActor var hasRequiredPermissions: Swift::Bool { get }
+  @_Concurrency::MainActor var version: Swift::String { get }
+  @_Concurrency::MainActor func clearData() -> Swift::Int
 }
 @_hasMissingDesignatedInitializers final public class MotionTagCore {
-  @_Concurrency.MainActor public static var sharedInstance: any MotionTagSDK.MotionTag {
+  @_Concurrency::MainActor public static var sharedInstance: any MotionTagSDK::MotionTag {
     get
   }
   @objc deinit
